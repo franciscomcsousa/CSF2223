@@ -5,7 +5,7 @@
 
 - Ran **binwalk** for every other file in this directory, some of them had secret embedded files, others did not
 
-- Using https://stegonline.georgeom.net/upload and finding out that **Dog.png** has 5 LSB green bits to hide a jpg image, we were able to extract the image **Dog.jpg**  
+- Using https://stegonline.georgeom.net/upload and finding out that **Dog.png** has 6 LSB green bits to hide a jpg image, we were able to extract the image **Dog.jpg**  
 ![image info](./csf-project1-artifacts-altered/Dog.jpg)  
 (in the report, this is the response for the evidence of the moon landing being a hoax)
 
@@ -14,3 +14,7 @@
  We found out it was a zip hidding in the comment, as the header of the file was ```PG```  
  ![image info](./csf-project1-artifacts-altered/Nevada.png)  
  **Nevada.png** is the name of the file that was inside the hidden zip
+
+ - Once more, using https://stegonline.georgeom.net/upload and finding out that **Schedule.png** has 6 LSB red bits to hide a png image, we were able to extract the image **Schedule2.png**  
+ ![image info](./csf-project1-artifacts-altered/Schedule2.png)  
+ (looks like this image has some hidden artifacts after PNG IEND)  
