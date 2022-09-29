@@ -22,3 +22,5 @@
   ![image info](./csf-project1-artifacts-altered/Flags/Golf/GolfPart1.jpg)  
 
 - Regarding the previous found flag, looks like the unknown header was an incomplete pdf header (instead of a jpg with trash at its header), after completing it, we were able to extract [**Golf.pdf**](./csf-project1-artifacts-altered/Flags/Golf/Golf.pdf)
+
+- Using a tool like WinRaR to rebuild **Sports.zip** after finding out about a hidden file (**BuzzAldrin.mov**) through it's metadata (comment), we were able to extract said file [**BuzzAldrin.mov**](./csf-project1-artifacts-altered/Flags/BuzzAldrin.mov)
