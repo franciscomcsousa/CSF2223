@@ -17,4 +17,6 @@
 
  - Once more, using https://stegonline.georgeom.net/upload and finding out that **Schedule.png** has 6 LSB red bits to hide a png image, we were able to extract the image **Schedule2.png**  
  ![image info](./csf-project1-artifacts-altered/Schedule2.png)  
- (looks like this image has some hidden artifacts after PNG IEND)  
+
+ - After running  ```exiftool Golf```, we found out that this file was a JPG file with a **163 byte** unknown header, so we used https://hexed.it/ to remove these 163 bytes of data from the header, after saving the result, we got **Golf.jpg**  
+  ![image info](./csf-project1-artifacts-altered/Golf.jpg)  
