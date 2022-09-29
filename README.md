@@ -8,3 +8,9 @@
 - Using https://stegonline.georgeom.net/upload and finding out that **Dog.png** has 5 LSB green bits to hide a jpg image, we were able to extract the image **Dog.jpg**  
 ![image info](./csf-project1-artifacts-altered/Dog.jpg)  
 (in the report, this is the response for the evidence of the moon landing being a hoax)
+
+- Using exiftool, we were able to see that **Relativity.gif** has a png on it's metadata (comment)  
+ ```exiftool -b -comment Relativity.gif > Relativity.zip```  
+ We found out it was a zip hidding in the comment, as the header of the file was ```PG```  
+ ![image info](./csf-project1-artifacts-altered/Nevada.png)  
+ **Nevada.png** is the name of the file that was inside the hidden zip
