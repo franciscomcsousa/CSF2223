@@ -24,3 +24,9 @@
 - Regarding the previous found flag, looks like the unknown header was an incomplete pdf header (instead of a jpg with trash at its header), after completing it, we were able to extract [**Golf.pdf**](./csf-project1-artifacts-altered/Flags/Golf/Golf.pdf)
 
 - Using a tool like WinRaR to rebuild **Sports.zip** after finding out about a hidden file (**BuzzAldrin.mov**) through it's metadata (comment), we were able to extract said file [**BuzzAldrin.mov**](./csf-project1-artifacts-altered/Flags/BuzzAldrin.mov)
+
+- We got to the conclusion that **Corrupted.pdf** was encrypted in base64, we used  
+```less Corrupted.pdf| base64 --decode > Corrupted.bin```  
+After this we obtained the decrypted version of **Corrupted.pdf**
+
+- After hexdumping **Corrupted.bin**, the header of this file had a [**tiny url link**](http://tiny.cc/7o2d6LuDVNSd) that lead us to a dropbox file called **tool**
