@@ -91,41 +91,38 @@ def check_password(filename: str, password: str):
             source.read(TOOL_URL_HEADER_SIZE)
             hash = source.read(PASSWORD_HASH_SIZE)
             if get_password_hash(password) == hash:
-                print('Password is correct!')
+                return 1
             else:
-                print('Password is incorrect! Aborting...')
-                exit(1)
+                return 0
 
 
 print('[---------------------------- Select Mode ----------------------------]')
-objective = ''
-while objective == '':
-    objective = input('Encrypt or decrypt? (e/d): ').lower()
-    if objective not in ('e', 'd'):
-        print('Invalid input!')
-        objective = ''
+objective = 'd'
 
 print('[---------------------------- Select File ----------------------------]')
-filename = ''
-while filename == '':
-    filename = input('Name of the file: ')
-    if not os.path.isfile(filename):
-        print('File not found!')
-        filename = ''
+filename = 'Corrupted.pdf'
 
 print('[-------------------------- Enter Password ---------------------------]')
 password = ''
-while password == '':
-    password = input('Password: ')
-    if len(password) < MIN_PWD_CHARS:
-        print(f"Password must be at least {MIN_PWD_CHARS} characters long!")
-        password = ''
+flag = False
+with open('lyrics.txt','r') as file:  
+    for line in file:      
+        for word in line.split(" "):
+            password = word
+            if(check_password(filename, password) == 1):
+                flag = True
+                break
+            else:
+                continue
+        if flag == True:
+            break
+file.close()
 
 print('[--------------------------- Confirmation ----------------------------]')
 print(f"'{filename}' ({readable_size(os.path.getsize(filename))}) will be {'enc' if objective == 'e' else 'dec'}rypted with the password '{password}'.")
 if input('Are you sure? (y/n): ').lower() == 'y':
     if objective == 'd':
-        check_password(filename, password)
+        a = check_password(filename, password)
     print('Starting...')
     encrypt_file(filename, password, objective)
     print('Done!')
