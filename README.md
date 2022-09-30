@@ -25,8 +25,13 @@
 
 - Using a tool like WinRaR to rebuild **Sports.zip** after finding out about a hidden file (**BuzzAldrin.mov**) through it's metadata (comment), we were able to extract said file [**BuzzAldrin.mov**](./csf-project1-artifacts-altered/Flags/BuzzAldrin.mov)
 
-- We got to the conclusion that **Corrupted.pdf** was encrypted in base64, we used  
+- We got to the conclusion that **Corrupted.pdf** was encrypted in base64 (== at the end of the hexdump), we used  
 ```less Corrupted.pdf| base64 --decode > Corrupted.bin```  
 After this we obtained the decrypted version of **Corrupted.pdf**
 
 - After hexdumping **Corrupted.bin**, the header of this file had a [**tiny url link**](http://tiny.cc/7o2d6LuDVNSd) that lead us to a dropbox file called **tool**
+
+- After running ```file tool```, we got the output ```tool: python 3.7 byte-compiled``` which led us to know that this was a compiled python file (**.pyc** extension).  
+After renaming ```tool``` to ```tool.pyc```, we were able to use **decompyle3** to decompile this file  
+```decompyle3 tool.pyc > tool.py```  
+Now we have a python script that we are able to run
