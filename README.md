@@ -27,7 +27,7 @@
 
 - We got to the conclusion that **Corrupted.pdf** was encrypted in base64 (== at the end of the hexdump), we used  
 ```less Corrupted.pdf| base64 --decode > Corrupted.bin```  
-After this we obtained the decrypted version of **Corrupted.pdf**
+After this we obtained the decoded version of **Corrupted.pdf**
 
 - After hexdumping **Corrupted.bin**, the header of this file had a [**tiny url link**](http://tiny.cc/7o2d6LuDVNSd) that lead us to a dropbox file called **tool**
 
