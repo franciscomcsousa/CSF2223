@@ -32,8 +32,8 @@ After this we obtained the decoded version of **Corrupted.pdf**
 - After hexdumping **Corrupted.bin**, the header of this file had a [**tiny url link**](http://tiny.cc/7o2d6LuDVNSd) that lead us to a dropbox file called **tool**
 
 - After running ```file tool```, we got the output ```tool: python 3.7 byte-compiled``` which led us to know that this was a compiled python file (**.pyc** extension)  
-After renaming ```tool``` to ```tool.pyc```, we were able to use **decompyle3** to decompile this file  
+- After renaming ```tool``` to ```tool.pyc```, we were able to use **decompyle3** to decompile this file  
 ```decompyle3 tool.pyc > tool.py```  
 Now we have a python script that we are able to run
 
-We then made our own script [**tool_bruteforce.py**](./csf-project1-artifacts-altered/tool_bruteforce.py) which combs through every word in a text file and checks if any of them is the password needed to decrypt the **Corrupted.pdf** file. After having tested on the **TCOS.txt** file without any hits, we copied the lyrics of **Ice.mp4** onto a text file and then ran the script on it. By doing so, we found that the word 'poisonous' was the key to decrypting the pdf file, which upon being decrypted revealed the last hidden document, a pdf file [**Corrupted_Decrypted.pdf**](./csf-project1-artifacts-altered/Flags/Corrupted_Decrypted.pdf)
+- We then made our own script [**tool_bruteforce.py**](./csf-project1-artifacts-altered/tool_bruteforce.py) which combs through every word in a text file and checks if any of them is the password needed to decrypt the **Corrupted.pdf** file. After having tested on the **TCOS.txt** file without any hits, we copied the lyrics of **Ice.mp4** onto a text file and then ran the script on it. By doing so, we found that the word 'poisonous' was the key to decrypting the pdf file, which upon being decrypted revealed the last hidden document, a pdf file [**Corrupted_Decrypted.pdf**](./csf-project1-artifacts-altered/Flags/Corrupted_Decrypted.pdf)
