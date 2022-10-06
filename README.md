@@ -5,7 +5,7 @@
 
 - Ran **binwalk** for every other file in this directory, some of them had secret embedded files, others did not
 
-- Using https://stegonline.georgeom.net/upload and finding out that **Dog.png** has 6 LSB green bits to hide a jpg image, we were able to extract the image **Dog.jpg**  
+- Using the script we made [**lsb.py**](./scripts/lsb.py) and finding out that **Dog.png** has 6 LSB green bits to hide a jpg image, we were able to extract the image **Dog.jpg**  
 ![image info](./csf-project1-artifacts-altered/Flags/Dog.jpg)  
 (in the report, this is the response for the evidence of the moon landing being a hoax)
 
