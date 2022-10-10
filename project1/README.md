@@ -1,0 +1,39 @@
+## What has been done?
+
+- Ran **binwalk** in **Relativy.gif**, this gave us some secret embedded files that were hiding on that file  
+ ```binwalk -Me filename.png```
+
+- Ran **binwalk** for every other file in this directory, some of them had secret embedded files, others did not
+
+- Using the script we made [**lsb.py**](./scripts/lsb.py) and finding out that **Dog.png** has 6 LSB green bits to hide a jpg image, we were able to extract the image **Dog.jpg**  
+![image info](./csf-project1-artifacts-altered/Flags/Dog.jpg)  
+(in the report, this is the response for the evidence of the moon landing being a hoax)
+
+- Using exiftool, we were able to see that **Relativity.gif** has a png on it's metadata (comment)  
+ ```exiftool -b -comment Relativity.gif > Relativity.zip```  
+ We found out it was a zip hidding in the comment, as the header of the file was ```PG```  
+ ![image info](./csf-project1-artifacts-altered/Flags/Nevada.png)  
+ **Nevada.png** is the name of the file that was inside the hidden zip
+
+ - Once more, using https://stegonline.georgeom.net/upload and finding out that **Schedule.png** has 6 LSB red bits to hide a png image, we were able to extract the image **Schedule2.png**  
+ ![image info](./csf-project1-artifacts-altered/Flags/Schedule2.png)  
+
+ - After running  ```exiftool Golf```, we found out that this file was a JPG file with a **163 byte** unknown header, so we used https://hexed.it/ to remove these 163 bytes of data from the header, after saving the result, we got **Golf.jpg** (looks like a part of a bigger image)  
+  ![image info](./csf-project1-artifacts-altered/Flags/Golf/GolfPart1.jpg)  
+
+- Regarding the previous found flag, looks like the unknown header was an incomplete pdf header (instead of a jpg with trash at its header), after completing it, we were able to extract [**Golf.pdf**](./csf-project1-artifacts-altered/Flags/Golf/Golf.pdf)
+
+- Using a tool like WinRaR to rebuild **Sports.zip** after finding out about a hidden file (**BuzzAldrin.mov**) through it's metadata (comment), we were able to extract said file [**BuzzAldrin.mov**](./csf-project1-artifacts-altered/Flags/BuzzAldrin.mov)
+
+- We got to the conclusion that **Corrupted.pdf** was encrypted in base64 (== at the end of the hexdump), we used  
+```less Corrupted.pdf| base64 --decode > Corrupted.bin```  
+After this we obtained the decoded version of **Corrupted.pdf**
+
+- After hexdumping **Corrupted.bin**, the header of this file had a [**tiny url link**](http://tiny.cc/7o2d6LuDVNSd) that lead us to a dropbox file called **tool**
+
+- After running ```file tool```, we got the output ```tool: python 3.7 byte-compiled``` which led us to know that this was a compiled python file (**.pyc** extension)  
+- After renaming ```tool``` to ```tool.pyc```, we were able to use **decompyle3** to decompile this file  
+```decompyle3 tool.pyc > tool.py```  
+Now we have a python script that we are able to run
+
+- We then made our own script [**tool_bruteforce.py**](./csf-project1-artifacts-altered/tool_bruteforce.py) which combs through every word in a text file and checks if any of them is the password needed to decrypt the **Corrupted.pdf** file. After having tested on the **TCOS.txt** file without any hits, we copied the lyrics of **Ice.mp4** onto a text file and then ran the script on it. By doing so, we found that the word 'poisonous' was the key to decrypting the pdf file, which upon being decrypted revealed the last hidden document, a pdf file [**Corrupted_Decrypted.pdf**](./csf-project1-artifacts-altered/Flags/Corrupted_Decrypted.pdf)
