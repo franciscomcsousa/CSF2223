@@ -1,0 +1,313 @@
+SQLite version 3.39.4 2022-09-29 15:55:41
+Enter ".help" for usage hints.
+sqlite> .dump
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE moz_origins ( id INTEGER PRIMARY KEY, prefix TEXT NOT NULL, host TEXT NOT NULL, frecency INTEGER NOT NULL, UNIQUE (prefix, host) );
+INSERT INTO moz_origins VALUES(1,'https://','www.mozilla.org',545);
+INSERT INTO moz_origins VALUES(2,'https://','support.mozilla.org',4280);
+INSERT INTO moz_origins VALUES(3,'http://','tiny.cc',25);
+INSERT INTO moz_origins VALUES(4,'https://','tiny.cc',25);
+INSERT INTO moz_origins VALUES(5,'https://','www.dropbox.com',50);
+INSERT INTO moz_origins VALUES(6,'https://','ucb3567716b0610686d96a89061b.dl.dropboxusercontent.com',0);
+INSERT INTO moz_origins VALUES(7,'https://','www.google.com',14000);
+INSERT INTO moz_origins VALUES(8,'https://','www.toolnb.com',100);
+INSERT INTO moz_origins VALUES(9,'https://','hexed.it',200);
+INSERT INTO moz_origins VALUES(10,'https://','twitter.com',300);
+INSERT INTO moz_origins VALUES(11,'https://','www.collinsdictionary.com',100);
+INSERT INTO moz_origins VALUES(12,'https://','eraser.heidi.ie',100);
+INSERT INTO moz_origins VALUES(13,'https://','www.tecmint.com',2000);
+CREATE TABLE moz_places (   id INTEGER PRIMARY KEY, url LONGVARCHAR, title LONGVARCHAR, rev_host LONGVARCHAR, visit_count INTEGER DEFAULT 0, hidden INTEGER DEFAULT 0 NOT NULL, typed INTEGER DEFAULT 0 NOT NULL, frecency INTEGER DEFAULT -1 NOT NULL, last_visit_date INTEGER , guid TEXT, foreign_count INTEGER DEFAULT 0 NOT NULL, url_hash INTEGER DEFAULT 0 NOT NULL , description TEXT, preview_image_url TEXT, site_name TEXT, origin_id INTEGER REFERENCES moz_origins(id));
+INSERT INTO moz_places VALUES(1,'https://www.mozilla.org/privacy/firefox/',NULL,'gro.allizom.www.',1,1,0,24,1665153021952052,'v8ZFFNAlMgxY',0,47356411089529,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(2,'https://www.mozilla.org/en-US/privacy/firefox/','Firefox Privacy Notice — Mozilla','gro.allizom.www.',1,0,0,98,1665153023586609,'en2X__BYJbla',0,47358032558425,replace('\n  Our Privacy Notices describe the data our products and services receive, share, and use, as well as choices available to you.\n','\n',char(10)),'https://www.mozilla.org/media/img/mozorg/mozilla-256.4720741d4108.jpg',NULL,1);
+INSERT INTO moz_places VALUES(3,'https://support.mozilla.org/products/firefox',NULL,'gro.allizom.troppus.',0,0,0,137,NULL,'6t1QCWMK3lxn',1,47358327123126,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(4,'https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize',NULL,'gro.allizom.troppus.',0,0,0,137,NULL,'axahSirHy6la',1,47359956450016,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(5,'https://www.mozilla.org/contribute/',NULL,'gro.allizom.www.',0,0,0,137,NULL,'6330-Fn2tM-D',1,47357364218428,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(6,'https://www.mozilla.org/about/',NULL,'gro.allizom.www.',0,0,0,137,NULL,'JheDSIc52WON',1,47357608426557,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(7,'https://www.mozilla.org/firefox/central/',NULL,'gro.allizom.www.',0,0,0,137,NULL,'cFrijJtcrHQe',1,47359969280417,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(8,'http://tiny.cc/7o2d6LuDVNSd',NULL,'cc.ynit.',1,1,0,24,1665153076458323,'pY2nAF6Ps6Bz',0,125510814137748,NULL,NULL,NULL,3);
+INSERT INTO moz_places VALUES(9,'https://tiny.cc/7o2d6LuDVNSd',NULL,'cc.ynit.',1,1,0,24,1665153076970635,'FNJbr8B8KvDH',0,47359687807256,NULL,NULL,NULL,4);
+INSERT INTO moz_places VALUES(10,'https://www.dropbox.com/s/noy9sq3i3cxzkol/tool','tool','moc.xobpord.www.',1,0,0,49,1665153077555472,'zMjt4ZaM_mWC',0,47356503917272,'Shared with Dropbox','https://www.dropbox.com/static/metaserver/static/images/spectrum-icons/generated/content/content-unknown-large.png',NULL,5);
+INSERT INTO moz_places VALUES(11,'https://ucb3567716b0610686d96a89061b.dl.dropboxusercontent.com/cd/0/get/BuVXoGPwpmWHO1BS4YlOahwRPdTvQ81OBfKPmVom3bWthWKUKtuvAloZ2Oco3BK754UsinzQZqHBplG4WBCZf-wXMdtBV46nInBR7S8M1EFtN10jb1JG_Ti-zgLJox4Q-JMy0WqLtSIiEX3GzF4oHWPD3I9NbMUVhA3dKU1ucqeuQ7XVdcd9SBepu8XWr9ZEsQQ/file?_download_id=2832481154712301540337702525354790121498930017315623075449355366&_notify_domain=www.dropbox.com&dl=1','tool','moc.tnetnocresuxobpord.ld.b16098a69d6860160b6177653bcu.',0,0,0,0,1665153095790000,'ccPrZXQvguww',0,47358650257078,NULL,NULL,NULL,6);
+INSERT INTO moz_places VALUES(12,'https://www.google.com/search?channel=fs&client=ubuntu&q=python+decompiler+online','python decompiler online - Pesquisa Google','moc.elgoog.www.',1,0,1,1950,1665153178930794,'s0fYaDpEF2m3',0,47357815844378,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(13,'https://www.toolnb.com/tools-lang-en/pyc.html','PyC decompile - Toolnb online toolbox','moc.bnloot.www.',1,0,0,98,1665153188082648,'DbsYuyV1XNaR',0,47360077965463,NULL,NULL,NULL,8);
+INSERT INTO moz_places VALUES(14,'https://www.google.com/search?channel=fs&client=ubuntu&q=ice+baby+lyrics','ice baby lyrics - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665153478722887,'HPVSCLhbmIs9',0,47359620234811,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(15,'https://www.google.com/search?channel=fs&client=ubuntu&q=hexedit','hexedit - Pesquisa Google','moc.elgoog.www.',2,0,1,4000,1665182341257661,'QREjUjXbgQH7',0,47359540678906,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(16,'https://hexed.it/','HexEd.it - Browser-based Online and Offline Hex Editing','ti.dexeh.',2,0,0,200,1665182345357925,'Q0Q1v33JGbfX',0,47359690823906,'HexEd.it is a free hex editor for Windows, MacOS, Linux and all other modern operating systems, which uses HTML5 and JavaScript (JS) technology to enable hexediting online, directly in your browser.','https://hexed.it/img/logo.png',NULL,9);
+INSERT INTO moz_places VALUES(17,'https://www.google.com/search?channel=fs&client=ubuntu&q=twitter','twitter - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665189846397323,'IY2-Y7JWlKra',0,47360405836584,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(18,'https://twitter.com/login','Twitter','moc.rettiwt.',1,0,0,100,1665189852313572,'awauhP_Rs7pz',0,47360442183356,NULL,NULL,NULL,10);
+INSERT INTO moz_places VALUES(19,'https://twitter.com/i/flow/login','Log in to Twitter / Twitter','moc.rettiwt.',1,0,0,100,1665189857146998,'Yn9tVjPwwske',0,47358846100908,'Log in to Twitter to see the latest. Join the conversation, follow accounts, see your Home Timeline, and catch up on Tweets from the people you know.',NULL,NULL,10);
+INSERT INTO moz_places VALUES(20,'https://www.google.com/search?channel=fs&client=ubuntu&q=expose+a+fraud','expose a fraud - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665189866136247,'B8ezMcUL2D1J',0,47360208290225,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(21,'https://twitter.com/home','Home / Twitter','moc.rettiwt.',1,0,0,100,1665189940759793,'AECEH82Narpc',0,47359764585813,NULL,NULL,NULL,10);
+INSERT INTO moz_places VALUES(22,'https://support.mozilla.org/',NULL,'gro.allizom.troppus.',1,1,1,2000,1665189962076051,'rgjFAPqMpkLA',0,47358440940827,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(23,'https://support.mozilla.org/en-US/','Mozilla Support','gro.allizom.troppus.',1,0,0,2000,1665189962510900,'nCORhLq48NEi',0,47357578484322,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(24,'https://www.collinsdictionary.com/dictionary/english/expose-fraud','Expose fraud definition and meaning | Collins English Dictionary','moc.yranoitcidsnilloc.www.',1,0,0,100,1665189983097279,'OD1zmPkMNS2A',0,47357709536422,'Expose fraud definition: Fraud is the crime of gaining money or financial benefits by a trick or by lying. | Meaning, pronunciation, translations and examples','https://www.collinsdictionary.com/external/images/social/logo-ENGLISH.png',NULL,11);
+INSERT INTO moz_places VALUES(25,'https://www.google.com/search?channel=fs&client=ubuntu&q=safe+delete','safe delete - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665190009182258,'Uri_2b0y3dLa',0,47358827211039,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(26,'https://eraser.heidi.ie/','Eraser – Secure Erase Files from Hard Drives','ei.idieh.resare.',1,0,0,100,1665190021366469,'MObtEQDdX78o',0,47359902332042,NULL,NULL,NULL,12);
+INSERT INTO moz_places VALUES(27,'https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/','3 Ways to Permanently and Securely Delete ''Files and Directories'' in Linux','moc.tnimcet.www.',1,0,1,2000,1665190041957358,'YGs_ByJrY1tO',0,47358684199718,'In this article, we will explain a number of command line tools for permanently and securely deleting files or memory in Linux.','https://www.tecmint.com/wp-content/uploads/2017/01/Delete-Files-Securely-Permanently-in-Linux.png',NULL,13);
+CREATE TABLE moz_historyvisits (  id INTEGER PRIMARY KEY, from_visit INTEGER, place_id INTEGER, visit_date INTEGER, visit_type INTEGER, session INTEGER);
+INSERT INTO moz_historyvisits VALUES(1,0,1,1665153021952052,1,0);
+INSERT INTO moz_historyvisits VALUES(2,1,2,1665153023586609,6,0);
+INSERT INTO moz_historyvisits VALUES(3,0,8,1665153076458323,1,0);
+INSERT INTO moz_historyvisits VALUES(4,3,9,1665153076970635,5,0);
+INSERT INTO moz_historyvisits VALUES(5,4,10,1665153077555472,6,0);
+INSERT INTO moz_historyvisits VALUES(6,5,11,1665153095790000,7,0);
+INSERT INTO moz_historyvisits VALUES(7,0,12,1665153178930794,2,0);
+INSERT INTO moz_historyvisits VALUES(8,0,13,1665153188082648,1,0);
+INSERT INTO moz_historyvisits VALUES(9,0,14,1665153478722887,2,0);
+INSERT INTO moz_historyvisits VALUES(10,0,15,1665153650099460,2,0);
+INSERT INTO moz_historyvisits VALUES(11,0,16,1665153653098960,1,0);
+INSERT INTO moz_historyvisits VALUES(12,0,15,1665182341257661,2,0);
+INSERT INTO moz_historyvisits VALUES(13,0,16,1665182345357925,1,0);
+INSERT INTO moz_historyvisits VALUES(14,0,17,1665189846397323,2,0);
+INSERT INTO moz_historyvisits VALUES(15,0,18,1665189852313572,1,0);
+INSERT INTO moz_historyvisits VALUES(16,15,19,1665189857146998,1,0);
+INSERT INTO moz_historyvisits VALUES(17,0,20,1665189866136247,2,0);
+INSERT INTO moz_historyvisits VALUES(18,16,21,1665189940759793,1,0);
+INSERT INTO moz_historyvisits VALUES(19,0,22,1665189962076051,2,0);
+INSERT INTO moz_historyvisits VALUES(20,19,23,1665189962510900,6,0);
+INSERT INTO moz_historyvisits VALUES(21,0,24,1665189983097279,1,0);
+INSERT INTO moz_historyvisits VALUES(22,0,25,1665190009182258,2,0);
+INSERT INTO moz_historyvisits VALUES(23,0,26,1665190021366469,1,0);
+INSERT INTO moz_historyvisits VALUES(24,0,27,1665190041957358,2,0);
+CREATE TABLE moz_inputhistory (  place_id INTEGER NOT NULL, input LONGVARCHAR NOT NULL, use_count INTEGER, PRIMARY KEY (place_id, input));
+CREATE TABLE moz_bookmarks (  id INTEGER PRIMARY KEY, type INTEGER, fk INTEGER DEFAULT NULL, parent INTEGER, position INTEGER, title LONGVARCHAR, keyword_id INTEGER, folder_type TEXT, dateAdded INTEGER, lastModified INTEGER, guid TEXT, syncStatus INTEGER NOT NULL DEFAULT 0, syncChangeCounter INTEGER NOT NULL DEFAULT 1);
+INSERT INTO moz_bookmarks VALUES(1,2,NULL,0,0,'',NULL,NULL,1665153022156000,1665153028413000,'root________',1,1);
+INSERT INTO moz_bookmarks VALUES(2,2,NULL,1,0,'menu',NULL,NULL,1665153022156000,1665153026373000,'menu________',1,3);
+INSERT INTO moz_bookmarks VALUES(3,2,NULL,1,1,'toolbar',NULL,NULL,1665153022156000,1665153028413000,'toolbar_____',1,3);
+INSERT INTO moz_bookmarks VALUES(4,2,NULL,1,2,'tags',NULL,NULL,1665153022156000,1665153022156000,'tags________',1,1);
+INSERT INTO moz_bookmarks VALUES(5,2,NULL,1,3,'unfiled',NULL,NULL,1665153022156000,1665153025726000,'unfiled_____',1,2);
+INSERT INTO moz_bookmarks VALUES(6,2,NULL,1,4,'mobile',NULL,NULL,1665153022284000,1665153025726000,'mobile______',1,2);
+INSERT INTO moz_bookmarks VALUES(7,2,NULL,2,0,'Mozilla Firefox',NULL,NULL,1665153026373000,1665153026373000,'9zQM4vg6YJwC',0,1);
+INSERT INTO moz_bookmarks VALUES(8,1,3,7,0,'Get Help',NULL,NULL,1665153026373000,1665153026373000,'_xX84Cyqp7_J',0,1);
+INSERT INTO moz_bookmarks VALUES(9,1,4,7,1,'Customize Firefox',NULL,NULL,1665153026373000,1665153026373000,'MVfK3ko-yCWU',0,1);
+INSERT INTO moz_bookmarks VALUES(10,1,5,7,2,'Get Involved',NULL,NULL,1665153026373000,1665153026373000,'c0rD3Y_CKki1',0,1);
+INSERT INTO moz_bookmarks VALUES(11,1,6,7,3,'About Us',NULL,NULL,1665153026373000,1665153026373000,'BFtvxw82UOwQ',0,1);
+INSERT INTO moz_bookmarks VALUES(12,1,7,3,0,'Getting Started',NULL,NULL,1665153028413000,1665153028413000,'6QYNGpdfECVR',0,1);
+CREATE TABLE moz_bookmarks_deleted (  guid TEXT PRIMARY KEY, dateRemoved INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE moz_keywords (  id INTEGER PRIMARY KEY AUTOINCREMENT, keyword TEXT UNIQUE, place_id INTEGER, post_data TEXT);
+CREATE TABLE moz_anno_attributes (  id INTEGER PRIMARY KEY, name VARCHAR(32) UNIQUE NOT NULL);
+INSERT INTO moz_anno_attributes VALUES(1,'downloads/destinationFileURI');
+INSERT INTO moz_anno_attributes VALUES(2,'downloads/metaData');
+CREATE TABLE moz_annos (  id INTEGER PRIMARY KEY, place_id INTEGER NOT NULL, anno_attribute_id INTEGER, content LONGVARCHAR, flags INTEGER DEFAULT 0, expiration INTEGER DEFAULT 0, type INTEGER DEFAULT 0, dateAdded INTEGER DEFAULT 0, lastModified INTEGER DEFAULT 0);
+INSERT INTO moz_annos VALUES(1,11,1,'file:///home/carlseagal/Downloads/tool',0,4,3,1665153096479000,1665153096479000);
+INSERT INTO moz_annos VALUES(2,11,2,'{"state":1,"deleted":false,"endTime":1665153096371,"fileSize":3707}',0,4,3,1665153096536000,1665153096536000);
+CREATE TABLE moz_items_annos (  id INTEGER PRIMARY KEY, item_id INTEGER NOT NULL, anno_attribute_id INTEGER, content LONGVARCHAR, flags INTEGER DEFAULT 0, expiration INTEGER DEFAULT 0, type INTEGER DEFAULT 0, dateAdded INTEGER DEFAULT 0, lastModified INTEGER DEFAULT 0);
+CREATE TABLE moz_meta (key TEXT PRIMARY KEY, value NOT NULL) WITHOUT ROWID ;
+INSERT INTO moz_meta VALUES('origin_frecency_count',12);
+INSERT INTO moz_meta VALUES('origin_frecency_sum',21725.0);
+INSERT INTO moz_meta VALUES('origin_frecency_sum_of_squares',218779175.0);
+CREATE TABLE moz_places_metadata (id INTEGER PRIMARY KEY, place_id INTEGER NOT NULL, referrer_place_id INTEGER, created_at INTEGER NOT NULL DEFAULT 0, updated_at INTEGER NOT NULL DEFAULT 0, total_view_time INTEGER NOT NULL DEFAULT 0, typing_time INTEGER NOT NULL DEFAULT 0, key_presses INTEGER NOT NULL DEFAULT 0, scrolling_time INTEGER NOT NULL DEFAULT 0, scrolling_distance INTEGER NOT NULL DEFAULT 0, document_type INTEGER NOT NULL DEFAULT 0, search_query_id INTEGER, FOREIGN KEY (place_id) REFERENCES moz_places(id) ON DELETE CASCADE, FOREIGN KEY (referrer_place_id) REFERENCES moz_places(id) ON DELETE CASCADE, FOREIGN KEY(search_query_id) REFERENCES moz_places_metadata_search_queries(id) ON DELETE CASCADE CHECK(place_id != referrer_place_id) );
+CREATE TABLE moz_places_metadata_search_queries ( id INTEGER PRIMARY KEY, terms TEXT NOT NULL UNIQUE );
+CREATE TABLE moz_places_metadata_snapshots (   place_id INTEGER PRIMARY KEY,   created_at INTEGER NOT NULL,   removed_at INTEGER,   removed_reason INTEGER,   first_interaction_at INTEGER NOT NULL,   last_interaction_at INTEGER NOT NULL,   document_type INTEGER NOT NULL DEFAULT 0,   user_persisted INTEGER NOT NULL DEFAULT 0,   title TEXT,   FOREIGN KEY (place_id) REFERENCES moz_places(id) ON DELETE CASCADE );
+CREATE TABLE moz_places_metadata_snapshots_extra (   place_id INTEGER NOT NULL,   type INTEGER NOT NULL DEFAULT 0,   data TEXT NOT NULL,   PRIMARY KEY (place_id, type),   FOREIGN KEY (place_id) REFERENCES moz_places_metadata_snapshots(place_id) ON DELETE CASCADE ) WITHOUT ROWID ;
+CREATE TABLE moz_places_metadata_snapshots_groups (   id INTEGER PRIMARY KEY,   title TEXT,   hidden INTEGER DEFAULT 0 NOT NULL,   builder TEXT NOT NULL,   builder_data TEXT );
+CREATE TABLE moz_places_metadata_groups_to_snapshots (   group_id INTEGER NOT NULL,   place_id INTEGER NOT NULL,   hidden INTEGER DEFAULT 0 NOT NULL,   PRIMARY KEY (group_id, place_id),   FOREIGN KEY (group_id) REFERENCES     moz_places_metadata_snapshots_groups(id) ON DELETE CASCADE,   FOREIGN KEY (place_id) REFERENCES     moz_places_metadata_snapshots(place_id) ON DELETE CASCADE ) WITHOUT ROWID;
+CREATE TABLE moz_session_metadata (   id INTEGER PRIMARY KEY,   guid TEXT NOT NULL UNIQUE,   last_saved_at INTEGER NOT NULL DEFAULT 0,   data TEXT );
+CREATE TABLE moz_session_to_places (   session_id INTEGER NOT NULL,   place_id INTEGER NOT NULL ,   position INTEGER,   PRIMARY KEY (session_id, place_id),   FOREIGN KEY (place_id) REFERENCES moz_places(id) ON DELETE CASCADE   FOREIGN KEY (session_id) REFERENCES moz_session_metadata(id) ON DELETE CASCADE ) WITHOUT ROWID;
+CREATE TABLE moz_previews_tombstones (   hash TEXT PRIMARY KEY ) WITHOUT ROWID;
+DELETE FROM sqlite_sequence;
+CREATE INDEX moz_places_url_hashindex ON moz_places (url_hash);
+CREATE INDEX moz_places_hostindex ON moz_places (rev_host);
+CREATE INDEX moz_places_visitcount ON moz_places (visit_count);
+CREATE INDEX moz_places_frecencyindex ON moz_places (frecency);
+CREATE INDEX moz_places_lastvisitdateindex ON moz_places (last_visit_date);
+CREATE UNIQUE INDEX moz_places_guid_uniqueindex ON moz_places (guid);
+CREATE INDEX moz_places_originidindex ON moz_places (origin_id);
+CREATE INDEX moz_historyvisits_placedateindex ON moz_historyvisits (place_id, visit_date);
+CREATE INDEX moz_historyvisits_fromindex ON moz_historyvisits (from_visit);
+CREATE INDEX moz_historyvisits_dateindex ON moz_historyvisits (visit_date);
+CREATE INDEX moz_bookmarks_itemindex ON moz_bookmarks (fk, type);
+CREATE INDEX moz_bookmarks_parentindex ON moz_bookmarks (parent, position);
+CREATE INDEX moz_bookmarks_itemlastmodifiedindex ON moz_bookmarks (fk, lastModified);
+CREATE INDEX moz_bookmarks_dateaddedindex ON moz_bookmarks (dateAdded);
+CREATE UNIQUE INDEX moz_bookmarks_guid_uniqueindex ON moz_bookmarks (guid);
+CREATE UNIQUE INDEX moz_keywords_placepostdata_uniqueindex ON moz_keywords (place_id, post_data);
+CREATE UNIQUE INDEX moz_annos_placeattributeindex ON moz_annos (place_id, anno_attribute_id);
+CREATE UNIQUE INDEX moz_items_annos_itemattributeindex ON moz_items_annos (item_id, anno_attribute_id);
+CREATE UNIQUE INDEX moz_places_metadata_placecreated_uniqueindex ON moz_places_metadata (place_id, created_at);
+CREATE INDEX moz_places_metadata_referrerindex ON moz_places_metadata (referrer_place_id);
+CREATE INDEX moz_places_metadata_snapshots_pinnedindex ON moz_places_metadata_snapshots (user_persisted, last_interaction_at);
+CREATE INDEX moz_places_metadata_snapshots_extra_typeindex ON moz_places_metadata_snapshots_extra (type);
+COMMIT;
+sqlite> .tables
+moz_anno_attributes                    
+moz_annos                              
+moz_bookmarks                          
+moz_bookmarks_deleted                  
+moz_historyvisits                      
+moz_inputhistory                       
+moz_items_annos                        
+moz_keywords                           
+moz_meta                               
+moz_origins                            
+moz_places                             
+moz_places_metadata                    
+moz_places_metadata_groups_to_snapshots
+moz_places_metadata_search_queries     
+moz_places_metadata_snapshots          
+moz_places_metadata_snapshots_extra    
+moz_places_metadata_snapshots_groups   
+moz_previews_tombstones                
+moz_session_metadata                   
+moz_session_to_places                  
+sqlite> select * from moz_historyvisits
+   ...> ;
+1|0|1|1665153021952052|1|0
+2|1|2|1665153023586609|6|0
+3|0|8|1665153076458323|1|0
+4|3|9|1665153076970635|5|0
+5|4|10|1665153077555472|6|0
+6|5|11|1665153095790000|7|0
+7|0|12|1665153178930794|2|0
+8|0|13|1665153188082648|1|0
+9|0|14|1665153478722887|2|0
+10|0|15|1665153650099460|2|0
+11|0|16|1665153653098960|1|0
+12|0|15|1665182341257661|2|0
+13|0|16|1665182345357925|1|0
+14|0|17|1665189846397323|2|0
+15|0|18|1665189852313572|1|0
+16|15|19|1665189857146998|1|0
+17|0|20|1665189866136247|2|0
+18|16|21|1665189940759793|1|0
+19|0|22|1665189962076051|2|0
+20|19|23|1665189962510900|6|0
+21|0|24|1665189983097279|1|0
+22|0|25|1665190009182258|2|0
+23|0|26|1665190021366469|1|0
+24|0|27|1665190041957358|2|0
+sqlite> .dump > search.txt
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+COMMIT;
+sqlite> .dump
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE moz_origins ( id INTEGER PRIMARY KEY, prefix TEXT NOT NULL, host TEXT NOT NULL, frecency INTEGER NOT NULL, UNIQUE (prefix, host) );
+INSERT INTO moz_origins VALUES(1,'https://','www.mozilla.org',545);
+INSERT INTO moz_origins VALUES(2,'https://','support.mozilla.org',4280);
+INSERT INTO moz_origins VALUES(3,'http://','tiny.cc',25);
+INSERT INTO moz_origins VALUES(4,'https://','tiny.cc',25);
+INSERT INTO moz_origins VALUES(5,'https://','www.dropbox.com',50);
+INSERT INTO moz_origins VALUES(6,'https://','ucb3567716b0610686d96a89061b.dl.dropboxusercontent.com',0);
+INSERT INTO moz_origins VALUES(7,'https://','www.google.com',14000);
+INSERT INTO moz_origins VALUES(8,'https://','www.toolnb.com',100);
+INSERT INTO moz_origins VALUES(9,'https://','hexed.it',200);
+INSERT INTO moz_origins VALUES(10,'https://','twitter.com',300);
+INSERT INTO moz_origins VALUES(11,'https://','www.collinsdictionary.com',100);
+INSERT INTO moz_origins VALUES(12,'https://','eraser.heidi.ie',100);
+INSERT INTO moz_origins VALUES(13,'https://','www.tecmint.com',2000);
+CREATE TABLE moz_places (   id INTEGER PRIMARY KEY, url LONGVARCHAR, title LONGVARCHAR, rev_host LONGVARCHAR, visit_count INTEGER DEFAULT 0, hidden INTEGER DEFAULT 0 NOT NULL, typed INTEGER DEFAULT 0 NOT NULL, frecency INTEGER DEFAULT -1 NOT NULL, last_visit_date INTEGER , guid TEXT, foreign_count INTEGER DEFAULT 0 NOT NULL, url_hash INTEGER DEFAULT 0 NOT NULL , description TEXT, preview_image_url TEXT, site_name TEXT, origin_id INTEGER REFERENCES moz_origins(id));
+INSERT INTO moz_places VALUES(1,'https://www.mozilla.org/privacy/firefox/',NULL,'gro.allizom.www.',1,1,0,24,1665153021952052,'v8ZFFNAlMgxY',0,47356411089529,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(2,'https://www.mozilla.org/en-US/privacy/firefox/','Firefox Privacy Notice — Mozilla','gro.allizom.www.',1,0,0,98,1665153023586609,'en2X__BYJbla',0,47358032558425,replace('\n  Our Privacy Notices describe the data our products and services receive, share, and use, as well as choices available to you.\n','\n',char(10)),'https://www.mozilla.org/media/img/mozorg/mozilla-256.4720741d4108.jpg',NULL,1);
+INSERT INTO moz_places VALUES(3,'https://support.mozilla.org/products/firefox',NULL,'gro.allizom.troppus.',0,0,0,137,NULL,'6t1QCWMK3lxn',1,47358327123126,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(4,'https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize',NULL,'gro.allizom.troppus.',0,0,0,137,NULL,'axahSirHy6la',1,47359956450016,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(5,'https://www.mozilla.org/contribute/',NULL,'gro.allizom.www.',0,0,0,137,NULL,'6330-Fn2tM-D',1,47357364218428,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(6,'https://www.mozilla.org/about/',NULL,'gro.allizom.www.',0,0,0,137,NULL,'JheDSIc52WON',1,47357608426557,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(7,'https://www.mozilla.org/firefox/central/',NULL,'gro.allizom.www.',0,0,0,137,NULL,'cFrijJtcrHQe',1,47359969280417,NULL,NULL,NULL,1);
+INSERT INTO moz_places VALUES(8,'http://tiny.cc/7o2d6LuDVNSd',NULL,'cc.ynit.',1,1,0,24,1665153076458323,'pY2nAF6Ps6Bz',0,125510814137748,NULL,NULL,NULL,3);
+INSERT INTO moz_places VALUES(9,'https://tiny.cc/7o2d6LuDVNSd',NULL,'cc.ynit.',1,1,0,24,1665153076970635,'FNJbr8B8KvDH',0,47359687807256,NULL,NULL,NULL,4);
+INSERT INTO moz_places VALUES(10,'https://www.dropbox.com/s/noy9sq3i3cxzkol/tool','tool','moc.xobpord.www.',1,0,0,49,1665153077555472,'zMjt4ZaM_mWC',0,47356503917272,'Shared with Dropbox','https://www.dropbox.com/static/metaserver/static/images/spectrum-icons/generated/content/content-unknown-large.png',NULL,5);
+INSERT INTO moz_places VALUES(11,'https://ucb3567716b0610686d96a89061b.dl.dropboxusercontent.com/cd/0/get/BuVXoGPwpmWHO1BS4YlOahwRPdTvQ81OBfKPmVom3bWthWKUKtuvAloZ2Oco3BK754UsinzQZqHBplG4WBCZf-wXMdtBV46nInBR7S8M1EFtN10jb1JG_Ti-zgLJox4Q-JMy0WqLtSIiEX3GzF4oHWPD3I9NbMUVhA3dKU1ucqeuQ7XVdcd9SBepu8XWr9ZEsQQ/file?_download_id=2832481154712301540337702525354790121498930017315623075449355366&_notify_domain=www.dropbox.com&dl=1','tool','moc.tnetnocresuxobpord.ld.b16098a69d6860160b6177653bcu.',0,0,0,0,1665153095790000,'ccPrZXQvguww',0,47358650257078,NULL,NULL,NULL,6);
+INSERT INTO moz_places VALUES(12,'https://www.google.com/search?channel=fs&client=ubuntu&q=python+decompiler+online','python decompiler online - Pesquisa Google','moc.elgoog.www.',1,0,1,1950,1665153178930794,'s0fYaDpEF2m3',0,47357815844378,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(13,'https://www.toolnb.com/tools-lang-en/pyc.html','PyC decompile - Toolnb online toolbox','moc.bnloot.www.',1,0,0,98,1665153188082648,'DbsYuyV1XNaR',0,47360077965463,NULL,NULL,NULL,8);
+INSERT INTO moz_places VALUES(14,'https://www.google.com/search?channel=fs&client=ubuntu&q=ice+baby+lyrics','ice baby lyrics - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665153478722887,'HPVSCLhbmIs9',0,47359620234811,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(15,'https://www.google.com/search?channel=fs&client=ubuntu&q=hexedit','hexedit - Pesquisa Google','moc.elgoog.www.',2,0,1,4000,1665182341257661,'QREjUjXbgQH7',0,47359540678906,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(16,'https://hexed.it/','HexEd.it - Browser-based Online and Offline Hex Editing','ti.dexeh.',2,0,0,200,1665182345357925,'Q0Q1v33JGbfX',0,47359690823906,'HexEd.it is a free hex editor for Windows, MacOS, Linux and all other modern operating systems, which uses HTML5 and JavaScript (JS) technology to enable hexediting online, directly in your browser.','https://hexed.it/img/logo.png',NULL,9);
+INSERT INTO moz_places VALUES(17,'https://www.google.com/search?channel=fs&client=ubuntu&q=twitter','twitter - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665189846397323,'IY2-Y7JWlKra',0,47360405836584,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(18,'https://twitter.com/login','Twitter','moc.rettiwt.',1,0,0,100,1665189852313572,'awauhP_Rs7pz',0,47360442183356,NULL,NULL,NULL,10);
+INSERT INTO moz_places VALUES(19,'https://twitter.com/i/flow/login','Log in to Twitter / Twitter','moc.rettiwt.',1,0,0,100,1665189857146998,'Yn9tVjPwwske',0,47358846100908,'Log in to Twitter to see the latest. Join the conversation, follow accounts, see your Home Timeline, and catch up on Tweets from the people you know.',NULL,NULL,10);
+INSERT INTO moz_places VALUES(20,'https://www.google.com/search?channel=fs&client=ubuntu&q=expose+a+fraud','expose a fraud - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665189866136247,'B8ezMcUL2D1J',0,47360208290225,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(21,'https://twitter.com/home','Home / Twitter','moc.rettiwt.',1,0,0,100,1665189940759793,'AECEH82Narpc',0,47359764585813,NULL,NULL,NULL,10);
+INSERT INTO moz_places VALUES(22,'https://support.mozilla.org/',NULL,'gro.allizom.troppus.',1,1,1,2000,1665189962076051,'rgjFAPqMpkLA',0,47358440940827,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(23,'https://support.mozilla.org/en-US/','Mozilla Support','gro.allizom.troppus.',1,0,0,2000,1665189962510900,'nCORhLq48NEi',0,47357578484322,NULL,NULL,NULL,2);
+INSERT INTO moz_places VALUES(24,'https://www.collinsdictionary.com/dictionary/english/expose-fraud','Expose fraud definition and meaning | Collins English Dictionary','moc.yranoitcidsnilloc.www.',1,0,0,100,1665189983097279,'OD1zmPkMNS2A',0,47357709536422,'Expose fraud definition: Fraud is the crime of gaining money or financial benefits by a trick or by lying. | Meaning, pronunciation, translations and examples','https://www.collinsdictionary.com/external/images/social/logo-ENGLISH.png',NULL,11);
+INSERT INTO moz_places VALUES(25,'https://www.google.com/search?channel=fs&client=ubuntu&q=safe+delete','safe delete - Pesquisa Google','moc.elgoog.www.',1,0,1,2000,1665190009182258,'Uri_2b0y3dLa',0,47358827211039,NULL,NULL,NULL,7);
+INSERT INTO moz_places VALUES(26,'https://eraser.heidi.ie/','Eraser – Secure Erase Files from Hard Drives','ei.idieh.resare.',1,0,0,100,1665190021366469,'MObtEQDdX78o',0,47359902332042,NULL,NULL,NULL,12);
+INSERT INTO moz_places VALUES(27,'https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/','3 Ways to Permanently and Securely Delete ''Files and Directories'' in Linux','moc.tnimcet.www.',1,0,1,2000,1665190041957358,'YGs_ByJrY1tO',0,47358684199718,'In this article, we will explain a number of command line tools for permanently and securely deleting files or memory in Linux.','https://www.tecmint.com/wp-content/uploads/2017/01/Delete-Files-Securely-Permanently-in-Linux.png',NULL,13);
+CREATE TABLE moz_historyvisits (  id INTEGER PRIMARY KEY, from_visit INTEGER, place_id INTEGER, visit_date INTEGER, visit_type INTEGER, session INTEGER);
+INSERT INTO moz_historyvisits VALUES(1,0,1,1665153021952052,1,0);
+INSERT INTO moz_historyvisits VALUES(2,1,2,1665153023586609,6,0);
+INSERT INTO moz_historyvisits VALUES(3,0,8,1665153076458323,1,0);
+INSERT INTO moz_historyvisits VALUES(4,3,9,1665153076970635,5,0);
+INSERT INTO moz_historyvisits VALUES(5,4,10,1665153077555472,6,0);
+INSERT INTO moz_historyvisits VALUES(6,5,11,1665153095790000,7,0);
+INSERT INTO moz_historyvisits VALUES(7,0,12,1665153178930794,2,0);
+INSERT INTO moz_historyvisits VALUES(8,0,13,1665153188082648,1,0);
+INSERT INTO moz_historyvisits VALUES(9,0,14,1665153478722887,2,0);
+INSERT INTO moz_historyvisits VALUES(10,0,15,1665153650099460,2,0);
+INSERT INTO moz_historyvisits VALUES(11,0,16,1665153653098960,1,0);
+INSERT INTO moz_historyvisits VALUES(12,0,15,1665182341257661,2,0);
+INSERT INTO moz_historyvisits VALUES(13,0,16,1665182345357925,1,0);
+INSERT INTO moz_historyvisits VALUES(14,0,17,1665189846397323,2,0);
+INSERT INTO moz_historyvisits VALUES(15,0,18,1665189852313572,1,0);
+INSERT INTO moz_historyvisits VALUES(16,15,19,1665189857146998,1,0);
+INSERT INTO moz_historyvisits VALUES(17,0,20,1665189866136247,2,0);
+INSERT INTO moz_historyvisits VALUES(18,16,21,1665189940759793,1,0);
+INSERT INTO moz_historyvisits VALUES(19,0,22,1665189962076051,2,0);
+INSERT INTO moz_historyvisits VALUES(20,19,23,1665189962510900,6,0);
+INSERT INTO moz_historyvisits VALUES(21,0,24,1665189983097279,1,0);
+INSERT INTO moz_historyvisits VALUES(22,0,25,1665190009182258,2,0);
+INSERT INTO moz_historyvisits VALUES(23,0,26,1665190021366469,1,0);
+INSERT INTO moz_historyvisits VALUES(24,0,27,1665190041957358,2,0);
+CREATE TABLE moz_inputhistory (  place_id INTEGER NOT NULL, input LONGVARCHAR NOT NULL, use_count INTEGER, PRIMARY KEY (place_id, input));
+CREATE TABLE moz_bookmarks (  id INTEGER PRIMARY KEY, type INTEGER, fk INTEGER DEFAULT NULL, parent INTEGER, position INTEGER, title LONGVARCHAR, keyword_id INTEGER, folder_type TEXT, dateAdded INTEGER, lastModified INTEGER, guid TEXT, syncStatus INTEGER NOT NULL DEFAULT 0, syncChangeCounter INTEGER NOT NULL DEFAULT 1);
+INSERT INTO moz_bookmarks VALUES(1,2,NULL,0,0,'',NULL,NULL,1665153022156000,1665153028413000,'root________',1,1);
+INSERT INTO moz_bookmarks VALUES(2,2,NULL,1,0,'menu',NULL,NULL,1665153022156000,1665153026373000,'menu________',1,3);
+INSERT INTO moz_bookmarks VALUES(3,2,NULL,1,1,'toolbar',NULL,NULL,1665153022156000,1665153028413000,'toolbar_____',1,3);
+INSERT INTO moz_bookmarks VALUES(4,2,NULL,1,2,'tags',NULL,NULL,1665153022156000,1665153022156000,'tags________',1,1);
+INSERT INTO moz_bookmarks VALUES(5,2,NULL,1,3,'unfiled',NULL,NULL,1665153022156000,1665153025726000,'unfiled_____',1,2);
+INSERT INTO moz_bookmarks VALUES(6,2,NULL,1,4,'mobile',NULL,NULL,1665153022284000,1665153025726000,'mobile______',1,2);
+INSERT INTO moz_bookmarks VALUES(7,2,NULL,2,0,'Mozilla Firefox',NULL,NULL,1665153026373000,1665153026373000,'9zQM4vg6YJwC',0,1);
+INSERT INTO moz_bookmarks VALUES(8,1,3,7,0,'Get Help',NULL,NULL,1665153026373000,1665153026373000,'_xX84Cyqp7_J',0,1);
+INSERT INTO moz_bookmarks VALUES(9,1,4,7,1,'Customize Firefox',NULL,NULL,1665153026373000,1665153026373000,'MVfK3ko-yCWU',0,1);
+INSERT INTO moz_bookmarks VALUES(10,1,5,7,2,'Get Involved',NULL,NULL,1665153026373000,1665153026373000,'c0rD3Y_CKki1',0,1);
+INSERT INTO moz_bookmarks VALUES(11,1,6,7,3,'About Us',NULL,NULL,1665153026373000,1665153026373000,'BFtvxw82UOwQ',0,1);
+INSERT INTO moz_bookmarks VALUES(12,1,7,3,0,'Getting Started',NULL,NULL,1665153028413000,1665153028413000,'6QYNGpdfECVR',0,1);
+CREATE TABLE moz_bookmarks_deleted (  guid TEXT PRIMARY KEY, dateRemoved INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE moz_keywords (  id INTEGER PRIMARY KEY AUTOINCREMENT, keyword TEXT UNIQUE, place_id INTEGER, post_data TEXT);
+CREATE TABLE moz_anno_attributes (  id INTEGER PRIMARY KEY, name VARCHAR(32) UNIQUE NOT NULL);
+INSERT INTO moz_anno_attributes VALUES(1,'downloads/destinationFileURI');
+INSERT INTO moz_anno_attributes VALUES(2,'downloads/metaData');
+CREATE TABLE moz_annos (  id INTEGER PRIMARY KEY, place_id INTEGER NOT NULL, anno_attribute_id INTEGER, content LONGVARCHAR, flags INTEGER DEFAULT 0, expiration INTEGER DEFAULT 0, type INTEGER DEFAULT 0, dateAdded INTEGER DEFAULT 0, lastModified INTEGER DEFAULT 0);
+INSERT INTO moz_annos VALUES(1,11,1,'file:///home/carlseagal/Downloads/tool',0,4,3,1665153096479000,1665153096479000);
+INSERT INTO moz_annos VALUES(2,11,2,'{"state":1,"deleted":false,"endTime":1665153096371,"fileSize":3707}',0,4,3,1665153096536000,1665153096536000);
+CREATE TABLE moz_items_annos (  id INTEGER PRIMARY KEY, item_id INTEGER NOT NULL, anno_attribute_id INTEGER, content LONGVARCHAR, flags INTEGER DEFAULT 0, expiration INTEGER DEFAULT 0, type INTEGER DEFAULT 0, dateAdded INTEGER DEFAULT 0, lastModified INTEGER DEFAULT 0);
+CREATE TABLE moz_meta (key TEXT PRIMARY KEY, value NOT NULL) WITHOUT ROWID ;
+INSERT INTO moz_meta VALUES('origin_frecency_count',12);
+INSERT INTO moz_meta VALUES('origin_frecency_sum',21725.0);
+INSERT INTO moz_meta VALUES('origin_frecency_sum_of_squares',218779175.0);
+CREATE TABLE moz_places_metadata (id INTEGER PRIMARY KEY, place_id INTEGER NOT NULL, referrer_place_id INTEGER, created_at INTEGER NOT NULL DEFAULT 0, updated_at INTEGER NOT NULL DEFAULT 0, total_view_time INTEGER NOT NULL DEFAULT 0, typing_time INTEGER NOT NULL DEFAULT 0, key_presses INTEGER NOT NULL DEFAULT 0, scrolling_time INTEGER NOT NULL DEFAULT 0, scrolling_distance INTEGER NOT NULL DEFAULT 0, document_type INTEGER NOT NULL DEFAULT 0, search_query_id INTEGER, FOREIGN KEY (place_id) REFERENCES moz_places(id) ON DELETE CASCADE, FOREIGN KEY (referrer_place_id) REFERENCES moz_places(id) ON DELETE CASCADE, FOREIGN KEY(search_query_id) REFERENCES moz_places_metadata_search_queries(id) ON DELETE CASCADE CHECK(place_id != referrer_place_id) );
+CREATE TABLE moz_places_metadata_search_queries ( id INTEGER PRIMARY KEY, terms TEXT NOT NULL UNIQUE );
+CREATE TABLE moz_places_metadata_snapshots (   place_id INTEGER PRIMARY KEY,   created_at INTEGER NOT NULL,   removed_at INTEGER,   removed_reason INTEGER,   first_interaction_at INTEGER NOT NULL,   last_interaction_at INTEGER NOT NULL,   document_type INTEGER NOT NULL DEFAULT 0,   user_persisted INTEGER NOT NULL DEFAULT 0,   title TEXT,   FOREIGN KEY (place_id) REFERENCES moz_places(id) ON DELETE CASCADE );
+CREATE TABLE moz_places_metadata_snapshots_extra (   place_id INTEGER NOT NULL,   type INTEGER NOT NULL DEFAULT 0,   data TEXT NOT NULL,   PRIMARY KEY (place_id, type),   FOREIGN KEY (place_id) REFERENCES moz_places_metadata_snapshots(place_id) ON DELETE CASCADE ) WITHOUT ROWID ;
+CREATE TABLE moz_places_metadata_snapshots_groups (   id INTEGER PRIMARY KEY,   title TEXT,   hidden INTEGER DEFAULT 0 NOT NULL,   builder TEXT NOT NULL,   builder_data TEXT );
+CREATE TABLE moz_places_metadata_groups_to_snapshots (   group_id INTEGER NOT NULL,   place_id INTEGER NOT NULL,   hidden INTEGER DEFAULT 0 NOT NULL,   PRIMARY KEY (group_id, place_id),   FOREIGN KEY (group_id) REFERENCES     moz_places_metadata_snapshots_groups(id) ON DELETE CASCADE,   FOREIGN KEY (place_id) REFERENCES     moz_places_metadata_snapshots(place_id) ON DELETE CASCADE ) WITHOUT ROWID;
+CREATE TABLE moz_session_metadata (   id INTEGER PRIMARY KEY,   guid TEXT NOT NULL UNIQUE,   last_saved_at INTEGER NOT NULL DEFAULT 0,   data TEXT );
+CREATE TABLE moz_session_to_places (   session_id INTEGER NOT NULL,   place_id INTEGER NOT NULL ,   position INTEGER,   PRIMARY KEY (session_id, place_id),   FOREIGN KEY (place_id) REFERENCES moz_places(id) ON DELETE CASCADE   FOREIGN KEY (session_id) REFERENCES moz_session_metadata(id) ON DELETE CASCADE ) WITHOUT ROWID;
+CREATE TABLE moz_previews_tombstones (   hash TEXT PRIMARY KEY ) WITHOUT ROWID;
+DELETE FROM sqlite_sequence;
+CREATE INDEX moz_places_url_hashindex ON moz_places (url_hash);
+CREATE INDEX moz_places_hostindex ON moz_places (rev_host);
+CREATE INDEX moz_places_visitcount ON moz_places (visit_count);
+CREATE INDEX moz_places_frecencyindex ON moz_places (frecency);
+CREATE INDEX moz_places_lastvisitdateindex ON moz_places (last_visit_date);
+CREATE UNIQUE INDEX moz_places_guid_uniqueindex ON moz_places (guid);
+CREATE INDEX moz_places_originidindex ON moz_places (origin_id);
+CREATE INDEX moz_historyvisits_placedateindex ON moz_historyvisits (place_id, visit_date);
+CREATE INDEX moz_historyvisits_fromindex ON moz_historyvisits (from_visit);
+CREATE INDEX moz_historyvisits_dateindex ON moz_historyvisits (visit_date);
+CREATE INDEX moz_bookmarks_itemindex ON moz_bookmarks (fk, type);
+CREATE INDEX moz_bookmarks_parentindex ON moz_bookmarks (parent, position);
+CREATE INDEX moz_bookmarks_itemlastmodifiedindex ON moz_bookmarks (fk, lastModified);
+CREATE INDEX moz_bookmarks_dateaddedindex ON moz_bookmarks (dateAdded);
+CREATE UNIQUE INDEX moz_bookmarks_guid_uniqueindex ON moz_bookmarks (guid);
+CREATE UNIQUE INDEX moz_keywords_placepostdata_uniqueindex ON moz_keywords (place_id, post_data);
+CREATE UNIQUE INDEX moz_annos_placeattributeindex ON moz_annos (place_id, anno_attribute_id);
+CREATE UNIQUE INDEX moz_items_annos_itemattributeindex ON moz_items_annos (item_id, anno_attribute_id);
+CREATE UNIQUE INDEX moz_places_metadata_placecreated_uniqueindex ON moz_places_metadata (place_id, created_at);
+CREATE INDEX moz_places_metadata_referrerindex ON moz_places_metadata (referrer_place_id);
+CREATE INDEX moz_places_metadata_snapshots_pinnedindex ON moz_places_metadata_snapshots (user_persisted, last_interaction_at);
+CREATE INDEX moz_places_metadata_snapshots_extra_typeindex ON moz_places_metadata_snapshots_extra (type);
+	COMMIT

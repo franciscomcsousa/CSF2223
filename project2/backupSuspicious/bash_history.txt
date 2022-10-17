@@ -1,0 +1,7 @@
+exit
+ls -la
+exit
+ls
+exit
+lsblk 
+

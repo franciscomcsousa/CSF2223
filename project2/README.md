@@ -27,3 +27,15 @@ After finding the inode, we extract the file using ```icat -o 1054720 carl_disk.
 - **Timestamps** were easy to obtain, as they were in each backup's file name, and since the seeds were reordered in a simple manner each time **obfuscator** was used, they were also easy to obtain, as the last 4 backups would have the last 4 seeds in **seeds.txt**
 
 - This way allowed us to get the passwords to unzip the **backup zip files**, which we were able to do with success
+
+### Day 2
+
+- After analyzing Seagal's **_firefox** directory, we inspected Seagal's web history in the file **places.sqlite**, using ```sqlite3 places.sqlite``` and running the command ```.dump```, we were able to see that Seagal visited an online python decompiler (probability to decompile **tool**) and visited [**hexed.it**](https://hexed.it/) (probably used to removed the header of the file named **Golf**).
+
+- In Seagal's web history there were also some visits to websites that provided information on how to safely delete linux files (in order to totally hide their existance)
+
+- Still in regards to the previous point, in Seagal's **bash_history** we saw him running the command ```srm -vz -r  moon/*```, uppon further inspection, we came to the conclusion that **srm** is used to safely delete files and possibly hide them from authorities (as it is explained in this tool's manual, which also was present in one of Seagal's backups)
+
+- The first command that is present in Seagal's **bash_history** was ```irssi```, **irssi** is a terminal based text chat client with IRC support. After googling if this program recorded chat logs, we came to the conclusion that if they were enable, they would be stored in ```/home/USERNAME/irclogs```, after running ```fls -o 1054720 carl_disk.img -r carl_disk.img | grep irclogs```, we were able to find the inode that correponded to the **irclogs** directory, inside there, we were able to find some chat logs of Prof.Seagal with a suspect named **Megan Polanski**, that claims to be President Richard Nixon grandson's wife.
+
+- (Todo - Explain what Seagal and Megan Polanski discuss about in the irc log)
