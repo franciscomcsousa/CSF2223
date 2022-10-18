@@ -54,4 +54,24 @@
 
 - The first command that is present in Seagal's **bash_history** was ```irssi```. **irssi** is a terminal based text chat client with IRC support. After googling if this program recorded chat logs, we came to the conclusion that if they were enabled, they would be stored in ```/home/USERNAME/irclogs```. After running ```fls -o 1054720 carl_disk.img -r carl_disk.img | grep irclogs```, we were able to find the inode that correponded to the **irclogs** directory. Inside, we were able to find some **chat logs** of Prof.Seagal with a suspect named **Megan Polanski**, who claims to be President Nixon's grandson's wife.
 
-- (Todo - Explain what Seagal and Megan Polanski discuss about in the irc log)
+- After analyzing the file named [**mpolanski.10-07.log**](/project2/irclogs/EFNet/mpolanski.10-07.log), we're able to review the chat that Seagal had with **Megan Polanski**.
+
+- Some relevant excerpts from the chat log are:
+
+    - > 15:11 \<MPolanski\> i have something that you might like  
+        15:11 \<carlseaga\> huh?  
+        15:11 \<carlseaga\> what is it?  
+        15:12 \<MPolanski\> i have proof carl  
+        15:12 \<MPolanski\> proof that the moon landing was fake  
+        15:12 \<MPolanski\> its not scientific proof, its even better  
+        15:12 \<MPolanski\> i have secret documents
+
+    - > 15:13 \<carlseaga\> what kind of documents do you have then?  
+        15:13 \<carlseaga\> your husband?  
+        15:13 \<carlseaga\> Chris Cox right?  
+        15:13 \<MPolanski\> do you know my husband?  
+        15:13 \<carlseaga\> grandson of the ex-president?  
+        15:13 \<MPolanski\> exactly  
+        15:13 \<MPolanski\> would you believe me if i told you that i got hold of the letter that Richard Nixon wrote to Chris, telling him that the moon landing was fake?
+
+    - Todo - continue reviewing the chat log between Seagal and Megan Polanski
