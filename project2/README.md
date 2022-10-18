@@ -10,9 +10,9 @@
 
 - In the bash history we encountered some references to Seagal's backups, which were created using a script called **backup.sh**. When analyzing this file, it referenced another file named **pass_gen.sh**.  
 
-NOTE: In order to extract files, first we search for the file's inode using ```fls -o 1054720 carl_disk.img -r carl_disk.img | grep FILENAME```.  
+    - **Note**: In order to extract files, first we search for the file's inode using ```fls -o 1054720 carl_disk.img -r carl_disk.img | grep FILENAME```.  
 
-After finding the inode, we extract the file using ```icat -o 1054720 carl_disk.img INODENUMBER > FILEDESTINATION```.
+    - After finding the inode, we extract the file using ```icat -o 1054720 carl_disk.img INODENUMBER > FILEDESTINATION```.
 
 - **pass_gen.sh** referenced a file named **obfuscator**.
 
@@ -30,9 +30,25 @@ After finding the inode, we extract the file using ```icat -o 1054720 carl_disk.
 
 ### Day 2
 
-- After analyzing Seagal's **_firefox** directory, we inspected Seagal's web history in the file  **places.sqlite**. Running ```sqlite3 places.sqlite``` and afterwards ```.dump```, we were able to see that Seagal visited an online python decompiler (probability to decompile **tool**) and visited [**hexed.it**](https://hexed.it/) (an online hex editor, probably used to removed the header of the file named **Golf**).
+- After analyzing Seagal's **_firefox** directory, we inspected Seagal's web history in the file  **places.sqlite**. Running ```sqlite3 places.sqlite``` and afterwards ```.dump```, we were able to see that Seagal visited.
 
-- In Seagal's web history there were also some visits to websites that provided information on how to safely delete linux files (in order to totally hide their existance).
+- We were also able to obtain the timestamps of when Seagal visited each website.
+
+- Some of the most relevant websites on Seagal's web history were:
+
+    - https://www.dropbox.com/s/noy9sq3i3cxzkol/tool
+
+    - https://hexed.it/
+
+    - https://www.collinsdictionary.com/dictionary/english/expose-fraud
+
+    - https://www.google.com/search?channel=fs&client=ubuntu&q=safe+delete
+
+    - https://eraser.heidi.ie/
+
+    - https://www.tecmint.com/permanently-and-securely-delete-files-directories-linux/
+
+- The timestamps of visiting the [**dropbox download**](https://www.dropbox.com/s/noy9sq3i3cxzkol/tool) and [**hexed.it**](https://hexed.it/) align with the timestamps from Seagal's backup, [**tool**]((https://www.dropbox.com/s/noy9sq3i3cxzkol/tool)) was used to encrypt **Corrupted.pdf** and [**hexed.it**](https://hexed.it/) was used to remove the header from **Golf**.
 
 - Still in regards to the previous point, in Seagal's **bash_history** we saw him running the command ```srm -vz -r  moon/*```. Uppon further inspection, we came to the conclusion that **srm** is used to safely delete files and possibly hide them from authorities (as it is explained in this tool's manual, which also was present in one of Seagal's backups)
 
