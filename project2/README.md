@@ -20,7 +20,7 @@
 
 - After decompiling this file, we were able to see that it used a filed named **seeds.txt** (also found on Seagal's workstation) as seeds to generate a password to the backup zip file.
 
-- **seeds.txt** had numerous lines, each one containing one seed, everytime obscurator was executed, the first seed from **seeds.txt** was pushed to the bottom, and the top seed was used in **obscurator**.
+- **seeds.txt** had numerous lines, each one containing one seed, and everytime obscurator was executed, the first seed from **seeds.txt** was pushed to the bottom, and used in **obscurator**.
 
 - We came to the conclusion that in order to get the passwords generated at a given time from **obscurator** we would need the **seed** that it used at that execution and the **timestamp** of that moment.
 
@@ -30,7 +30,7 @@
 
 ### Day 2
 
-- After analyzing Seagal's **_firefox** directory, we inspected Seagal's web history in the file  **places.sqlite**. Running ```sqlite3 places.sqlite``` and afterwards ```.dump```, we were able to see that Seagal visited.
+- After analyzing Seagal's **_firefox** directory, we inspected Seagal's web history in the file  **places.sqlite**. Running ```sqlite3 places.sqlite``` and afterwards ```.dump```, we were able to see which websites Seagal visited.
 
 - We were also able to obtain the timestamps of when Seagal visited each website.
 
@@ -50,11 +50,11 @@
 
 - The timestamps of visiting the [**dropbox download**](https://www.dropbox.com/s/noy9sq3i3cxzkol/tool) and [**hexed.it**](https://hexed.it/) align with the timestamps from Seagal's backup, [**tool**]((https://www.dropbox.com/s/noy9sq3i3cxzkol/tool)) was used to encrypt **Corrupted.pdf** and [**hexed.it**](https://hexed.it/) was used to remove the header from **Golf**.
 
-- Still in regards to the previous point, in Seagal's **bash_history** we saw him running the command ```srm -vz -r  moon/*```. Uppon further inspection, we came to the conclusion that **srm** is used to safely delete files and possibly hide them from authorities (as it is explained in this tool's manual, which also was present in one of Seagal's backups)
+- Still in regards to the previous point, in Seagal's **bash_history** we saw him running the command ```srm -vz -r  moon/*```. Upon further inspection, we came to the conclusion that **srm** is used to safely delete files and possibly hide them from authorities (as it is explained in this tool's manual, which was also present in one of Seagal's backups).
 
 - The first command that is present in Seagal's **bash_history** was ```irssi```. **irssi** is a terminal based text chat client with IRC support. After googling if this program recorded chat logs, we came to the conclusion that if they were enabled, they would be stored in ```/home/USERNAME/irclogs```. After running ```fls -o 1054720 carl_disk.img -r carl_disk.img | grep irclogs```, we were able to find the inode that correponded to the **irclogs** directory. Inside, we were able to find some **chat logs** of Prof.Seagal with a suspect named **Megan Polanski**, who claims to be President Nixon's grandson's wife.
 
-- After analyzing the file named [**mpolanski.10-07.log**](/project2/irclogs/EFNet/mpolanski.10-07.log), we're able to review the chat that Seagal had with **Megan Polanski**.
+- After analyzing the file named [**mpolanski.10-07.log**](/project2/irclogs/EFNet/mpolanski.10-07.log), we were able to review the chat that Seagal had with **Megan Polanski**.
 
 - Some relevant excerpts from the chat log are:
 
