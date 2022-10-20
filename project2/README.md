@@ -74,4 +74,13 @@
         15:13 \<MPolanski\> exactly  
         15:13 \<MPolanski\> would you believe me if i told you that i got hold of the letter that Richard Nixon wrote to Chris, telling him that the moon landing was fake?
 
+    - > 15:14 \<carlseaga\> but are you fine with leaking that? its your husbands secret  
+        15:15 \<MPolanski\> dont worry about that, there is no way i wasnt going to share something as important as this with my ol pal  
+        15:15 \<MPolanski\> anyway  
+        15:15 \<MPolanski\> I really go to go  
+        15:16 \<MPolanski\> can you meet me at the muddy charles in like 5min?  
+        15:16 \<carlseaga\> I had no idea you were in town  
+        15:16 \<carlseaga\> 5min? sure  
+        15:16 \<carlseaga\> you can bet ill be there  
+
     - Todo - continue reviewing the chat log between Seagal and Megan Polanski
