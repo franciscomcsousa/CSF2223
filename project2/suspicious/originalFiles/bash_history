@@ -1,0 +1,160 @@
+irssi
+cd Desktop/
+mkdir moon
+ls /media/carlseagal/PEN/
+cp -r /media/carlseagal/PEN/files/ moon/
+cd moon/
+ls
+cd files/
+ls
+cd ..
+mkdir _firefox
+bacd files/
+cd files/
+base64 -d Corrupted.pdf | less
+cp ~/Downloads/tool .
+file tool
+cp tool tool.pyc
+touch tool.pyc
+ls
+cp tool tool.pyc
+touch tool.py
+open tool.py
+python3 tool.py
+pip
+sudo apt install python3-pip
+python3 tool.py
+pip install base64io
+python3 tool.py
+touch ice.txt
+python3 tool.py
+open Corrupted.pdf_dec 
+cd ..
+mkdir secrets
+cp files/Corrupted.pdf_ secrets/letter.pdf
+cp files/Corrupted.pdf_dec secrets/letter.pdf
+exiftool
+sudo apt install libimage-exiftool-perl
+exiftool
+cd files/
+exiftool -comment Relativity.gif > out
+exiftool -b -comment Relativity.gif > out
+unzip out
+mv Nevada.png ../secrets/
+irssi
+irssi 
+ssh-keygen -t rsa -b 4096 -C "moon"
+ls ~/.ssh/id_*
+ping 192.168.1.84
+ssh-copy-id carlseagal@192.168.1.84
+ssh 192.168.1.84
+ls
+mkdir backups
+ls
+python2
+sudo apt install python2
+python2
+touch obfuscator.py
+open obfuscator.py 
+touch seeds.txt
+open seeds.txt 
+python2 obfuscator.py 
+python2 obfuscator.py a
+python2 -m compileall obfuscator.py 
+ls
+mv obfuscator.py obfuscator.pyc seeds.txt backups/
+cd backups/
+ls
+python2 obfuscator.py
+python2 obfuscator.pyc a
+rm obfuscator.py
+ls
+touch pass_gen.sh
+open pass_gen.sh 
+ls
+open pass_gen.sh 
+mv obfuscator.pyc obfuscator
+chmod +x pass_gen.sh 
+./pass_gen.sh 
+./pass_gen.sh a
+touch backup.sh
+open backup.sh 
+export BACKUP_PASS=$pass_gen.sh
+$BACKUP_PASS 
+export BACKUP_PASS= ~/backups/pass_gen.sh
+export BACKUP_PASS= $(~/backups/pass_gen.sh)
+$BACKUP_PASS 
+set BACKUP_PASS=~/backups/pass_gen.sh
+$BACKUP_PASS 
+$BACKUP_PASS a
+./pass_gen.sh 
+export BACKUP_PASS=~/backups/pass_gen.sh
+$BACKUP_PASS a
+$BACKUP_PASS 
+cd ~/.ssh/
+ls
+touch config
+open config 
+ssh backup
+ls
+cd ../backups/
+ls
+chmod +x backup.sh 
+ls
+open backup.sh 
+rsync
+cd ..
+~/backups/backup.sh 
+crontab -e
+ls
+cd backups/
+ls
+crontab -e
+cd ~/Desktop/moon/files/
+ls
+cd ~
+mv backups/seeds.txt .
+open backups/backup.sh 
+~/backups/backup.sh 
+crontab -e
+cd Desktop/moon/fi
+cd Desktop/moon/files/
+mv ~/Downloads/Sports.zip ./new_Sports.zip
+ls
+unzip new_Sports.zip 
+ls
+open BuzzAldrin.mov 
+mv BuzzAldrin.mov ../files/
+mv BuzzAldrin.mov ../secrets/
+file Golf 
+cat Golf 
+ls
+echo -n "%PDF-" head
+echo -n "%PDF-" > header
+cat Golf >> header 
+ls
+open header 
+mv header ../secrets/top_secret
+touch lsb.py
+open lsb.py 
+python3 lsb.py Dog.png g
+pip install bitstring
+python3 lsb.py Dog.png g
+open payload 
+mv payload ../secrets/polaroid
+python3 lsb.py Schedule.png r
+mv payload ../secrets/worksmanship 
+man srm
+sudo apt-get install secure-delete
+man srm
+man srm > man_srm_txt
+mv man_srm_txt Desktop/moon/
+cd Desktop/moon/
+ls
+rm -r _
+cd ..
+srm -vz moon/*
+srm -vz -r  moon/*
+rm -r moon/
+crontab -e
+ssh backup 
