@@ -28,10 +28,9 @@ def decrypt(enc, password):
     cipher = AES.new(private_key, AES.MODE_CFB, iv)
     return cipher.decrypt(enc[16:])
 
+#encry = encrypt("quit", password, 1)
+#print(decrypt(encry, password))
 
-file1 = open("file.txt", "r")
-
-message = str(decrypt(file1.read(), password), 'utf-8')
-
-#print(str(decrypt(file1.read(), password), 'utf-8'))
-#print(file1.read())
+file1 = open(sys.argv[1], "r")
+#file2 = open("decrypted_" + str(sys.argv[1]), "wb")
+print(str(decrypt(file1.read(), password)))
