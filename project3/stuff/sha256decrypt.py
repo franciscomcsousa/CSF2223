@@ -28,9 +28,8 @@ def decrypt(enc, password):
     cipher = AES.new(private_key, AES.MODE_CFB, iv)
     return cipher.decrypt(enc[16:])
 
-#encry = encrypt("quit", password, 1)
-#print(decrypt(encry, password))
-
 file1 = open(sys.argv[1], "r")
-#file2 = open("decrypted_" + str(sys.argv[1]), "wb")
-print(str(decrypt(file1.read(), password)))
+if os.path.exists("decrypted_" + str(sys.argv[1])):
+    os.remove("decrypted_" + str(sys.argv[1]))
+file2 = open("decrypted_" + str(sys.argv[1]), "wb")
+file2.write(decrypt(urllib.parse.unquote(file1.read()), password))
