@@ -1,0 +1,304 @@
+POST /mail/client/mail/compose/html;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b?4-1.IBehaviorListener.0-compose~form-menu-buttonContainer-container-buttonContainer_body-rightContainer-container-rightContainer_body-compose~form~submit~autosave&editorAction=REPLY&mailId=tmai17205e993134bffc HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/mail/compose/html;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b?editorAction=REPLY&mailId=tmai17205e993134bffc&showExternalContent=true
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Wicket-Ajax: true
+Wicket-Ajax-BaseURL: mail/compose/html?editorAction=REPLY&amp;mailId=tmai17205e993134bffc&amp;showExternalContent=true
+X-Requested-With: XMLHttpRequest
+Content-Length: 3439
+Origin: https://3c-lxa.mail.com
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x966; shownPromos=3525940#1666358551199|1|false&3226736#1666372892898|1|false; wa=0c5fccbaa61293215801e563c5c6d5ba; _ga_V2FMR8VFB6=GS1.1.1666435020.6.1.1666436151.0.0.0; _ga=GA1.2.268807319.1666358558; _gid=GA1.2.1572400341.1666358561; _autuserid2=7156955535842280725; __gads=ID=ba1667ca2d799022-227b6b6a44d6002f:T=1666358572:S=ALNI_Ma1J7Wvc3WkT0g_i1_NcUR7RbZSsw; __gpi=UID=00000b13dbce0583:T=1666358572:RT=1666432466:S=ALNI_Mb2jykv-l8MILwC5NUTsbk62rFCgA; cto_bundle=k81dzV9EVVFMVnhDJTJGejk3cFpyVkxKZHRIc0dsNU9YRzYwMHZaa2x5JTJCUkVuRERaZEFCYTRCbE1wbjlIV3d0cUdpTHo2VVF2a2FSUTN4WDdvaWozRXdhZjZsT3k2MGtkUFF1Mms1aHNQZGpjV3cyS2o5aUFjWFdDN3AzbTdjMzVjcjB3aXZob3lxUzZSTnVyTFRDZyUyRllnSnA1aENpczBkODE2ZWFxSzVtTlRxN1pLM1ElM0Q; tp_id=JZsnKWKuDAGsTOZBrh-IF_P0sWwkTt_Gz-zrkBkEi1q_q1PY3oR-M7bolRyqqWSmyMjG9w; cto_bidid=8xt5xF9zNDJTWUVJWllXJTJCSllpVGFiRGxwbmJ5Uk1JM1VSUUZLUHRTRmtaVHpFZTJteVNTJTJCRFQxdkwxQjViayUyRlZBTSUyRkVhbnJSc3hTdE5nQmdMT3Z3VXZYcjM2TWFBRjIzTlYxNGUwU1clMkZPc1BZUTJlQjlwd1doT1BZSlJJZ1BXTGpEQXZRU0dPSlB4bEJMU2VzQXVLdVolMkYxZ0ElM0QlM0Q; cto_dna_bundle=jHtrFF80M0RITmhlJTJCZkMwOUJGQlhaMUN2czd6Tkxka3l6TzZ4dnhmMHJjVllIS3pVTHhlVWtvY2o3MFBUNTF3JTJCMWJMSw; 2Q7NMZu76Rc25582cf-8ed3-43a7=~183ff55cc7c#c25582cf-8ed3-43a7-a9c9-72b192581e67; iac_token=78eda9513fbdaf9a139646f9c17b7646
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+compose-form_hf_0=&composeHeader%3Afrom%3AmailObjectContent%3Acontent%3Adropdown=%22Monica+Sky%22+%3Cmonica.l.sky%40mail.com%3E&composeHeader%3Ato%3AmailObjectContent%3Acontent%3AmultiObjectInput=%22Chris+Cox%22+%3Cchris.nixon.cox%40mail.com%3E&composeHeader%3Acc%3AmailObjectContent%3Acontent%3AmultiObjectInput=&composeHeader%3Abcc%3AmailObjectContent%3Acontent%3AmultiObjectInput=&composeHeader%3Asubject%3AmailObjectContent%3AmailObjectInput=Re%3A+xoxo&attachments%3AscratchIdList=&attachments%3AuploadMessage=&attachments%3Afilenames=&transferOptions%3Apriority=NORMAL&body=%3Cdiv%3E%0D%0A%3Cdiv%3EWarm+weather+in+the+winter!%3F+sounds+perfect!+I+already+started+to+look+into+hotels.+What+do+you+think+about+this+beach+resort+in+the+image%3F%3Cbr+%2F%3E%0D%0A%3Cbr+%2F%3E%0D%0Ahttps%3A%2F%2Fc.mail.com%2F%401164144562399092858%2Fj3JBb863R6yP7hwI0pBDaA%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%3Cbr+%2F%3E%0D%0AMonica%3Cbr+%2F%3E%0D%0A%26nbsp%3B%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv+name%3D%22quote%22+style%3D%22margin%3A10px+5px+5px+10px%3B+padding%3A+10px+0+10px+10px%3B+border-left%3A2px+solid+%23C3D9E5%3B+word-wrap%3A+break-word%3B+-webkit-nbsp-mode%3A+space%3B+-webkit-line-break%3A+after-white-space%3B%22%3E%0D%0A%3Cdiv+style%3D%22margin%3A0+0+10px+0%3B%22%3E%3Cb%3ESent%3A%3C%2Fb%3E%26nbsp%3BSaturday%2C+October+22%2C+2022+at+11%3A51+AM%3Cbr+%2F%3E%0D%0A%3Cb%3EFrom%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BChris+Cox%26quot%3B+%26lt%3Bchris.nixon.cox%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ETo%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BMonica+Sky%26quot%3B+%26lt%3Bmonica.l.sky%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ESubject%3A%3C%2Fb%3E%26nbsp%3BRe%3A+xoxo%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv+name%3D%22quoted-content%22%3E%0D%0A%3Cdiv+style%3D%22font-family%3A+Verdana%3Bfont-size%3A+12.0px%3B%22%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv%3EIt+was+really+something+wasn%26%2339%3Bt+it%3F+I+was+thinking+we+could+run+it+back+this+holiday+season.+Megan+will+be+out+of+town+for+a+cyber+security+conference+after+Xmas.+I+heard+the+weather+in+Cancun+is+great+all+year+round.%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%3Cbr+%2F%3E%0D%0AChris.%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv+style%3D%22margin%3A+10.0px+5.0px+5.0px+10.0px%3Bpadding%3A+10.0px+0+10.0px+10.0px%3Bborder-left%3A+2.0px+solid+rgb(195%2C217%2C229)%3B%22%3E%0D%0A%3Cdiv+style%3D%22margin%3A+0+0+10.0px+0%3B%22%3E%3Cb%3ESent%3A%3C%2Fb%3E%26nbsp%3BSaturday%2C+October+22%2C+2022+at+11%3A49+AM%3Cbr+%2F%3E%0D%0A%3Cb%3EFrom%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BMonica+Sky%26quot%3B+%26lt%3Bmonica.l.sky%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ETo%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BChris+Cox%26quot%3B+%26lt%3Bchris.nixon.cox%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ESubject%3A%3C%2Fb%3E%26nbsp%3Bxoxo%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22font-family%3A+Verdana%3Bfont-size%3A+12.0px%3B%22%3E%0D%0A%3Cdiv%3EHi+Chris!!+Just+letting+you+know+that+our+little+vacation+was+amazing.+We+really+got+to+do+it+again+XO.%3Cbr+%2F%3E%0D%0A%26nbsp%3B%26nbsp%3B+%26nbsp%3B%3Cbr+%2F%3E%0D%0AMonica%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A&menu%3AbuttonContainer%3Acontainer%3AbuttonContainer_body%3ArightContainer%3Acontainer%3ArightContainer_body%3Acompose-form-submit-autosave=1HTTP/1.1 200 200
+Date: Sat, 22 Oct 2022 10:56:41 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-UI-INTERNAL-GURID-SUFFIX: Y1PMac0UyryHDr2rK8vqEQAAAYI
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/xml;charset=UTF-8
+
+b9
+..........\..
+.@.E_.\..1.A.............fd...w.j...p...$.o..(.(x.Fd.:...F~J....[7.....HT..
+..-0.zI.........T/.....3. ..a.B...L+#...y.4.6...........5X.
+..T	...^..M.}.._....	..............
+0
+
+POST /mail/client/mail/compose/html;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b?4-1.IBehaviorListener.0-compose~form-menu-buttonContainer-container-buttonContainer_body-rightContainer-container-rightContainer_body-compose~form~submit~send&editorAction=REPLY&mailId=tmai17205e993134bffc HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/mail/compose/html;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b?editorAction=REPLY&mailId=tmai17205e993134bffc&showExternalContent=true
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Wicket-Ajax: true
+Wicket-Ajax-BaseURL: mail/compose/html?editorAction=REPLY&amp;mailId=tmai17205e993134bffc&amp;showExternalContent=true
+Wicket-FocusedElementId: compose-form-submit-send
+X-Requested-With: XMLHttpRequest
+Content-Length: 3435
+Origin: https://3c-lxa.mail.com
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x966; shownPromos=3525940#1666358551199|1|false&3226736#1666372892898|1|false; wa=0c5fccbaa61293215801e563c5c6d5ba; _ga_V2FMR8VFB6=GS1.1.1666435020.6.1.1666436151.0.0.0; _ga=GA1.2.268807319.1666358558; _gid=GA1.2.1572400341.1666358561; _autuserid2=7156955535842280725; __gads=ID=ba1667ca2d799022-227b6b6a44d6002f:T=1666358572:S=ALNI_Ma1J7Wvc3WkT0g_i1_NcUR7RbZSsw; __gpi=UID=00000b13dbce0583:T=1666358572:RT=1666432466:S=ALNI_Mb2jykv-l8MILwC5NUTsbk62rFCgA; cto_bundle=k81dzV9EVVFMVnhDJTJGejk3cFpyVkxKZHRIc0dsNU9YRzYwMHZaa2x5JTJCUkVuRERaZEFCYTRCbE1wbjlIV3d0cUdpTHo2VVF2a2FSUTN4WDdvaWozRXdhZjZsT3k2MGtkUFF1Mms1aHNQZGpjV3cyS2o5aUFjWFdDN3AzbTdjMzVjcjB3aXZob3lxUzZSTnVyTFRDZyUyRllnSnA1aENpczBkODE2ZWFxSzVtTlRxN1pLM1ElM0Q; tp_id=JZsnKWKuDAGsTOZBrh-IF_P0sWwkTt_Gz-zrkBkEi1q_q1PY3oR-M7bolRyqqWSmyMjG9w; cto_bidid=8xt5xF9zNDJTWUVJWllXJTJCSllpVGFiRGxwbmJ5Uk1JM1VSUUZLUHRTRmtaVHpFZTJteVNTJTJCRFQxdkwxQjViayUyRlZBTSUyRkVhbnJSc3hTdE5nQmdMT3Z3VXZYcjM2TWFBRjIzTlYxNGUwU1clMkZPc1BZUTJlQjlwd1doT1BZSlJJZ1BXTGpEQXZRU0dPSlB4bEJMU2VzQXVLdVolMkYxZ0ElM0QlM0Q; cto_dna_bundle=jHtrFF80M0RITmhlJTJCZkMwOUJGQlhaMUN2czd6Tkxka3l6TzZ4dnhmMHJjVllIS3pVTHhlVWtvY2o3MFBUNTF3JTJCMWJMSw; 2Q7NMZu76Rc25582cf-8ed3-43a7=~183ff55cc7c#c25582cf-8ed3-43a7-a9c9-72b192581e67; iac_token=78eda9513fbdaf9a139646f9c17b7646
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+compose-form_hf_0=&composeHeader%3Afrom%3AmailObjectContent%3Acontent%3Adropdown=%22Monica+Sky%22+%3Cmonica.l.sky%40mail.com%3E&composeHeader%3Ato%3AmailObjectContent%3Acontent%3AmultiObjectInput=%22Chris+Cox%22+%3Cchris.nixon.cox%40mail.com%3E&composeHeader%3Acc%3AmailObjectContent%3Acontent%3AmultiObjectInput=&composeHeader%3Abcc%3AmailObjectContent%3Acontent%3AmultiObjectInput=&composeHeader%3Asubject%3AmailObjectContent%3AmailObjectInput=Re%3A+xoxo&attachments%3AscratchIdList=&attachments%3AuploadMessage=&attachments%3Afilenames=&transferOptions%3Apriority=NORMAL&body=%3Cdiv%3E%0D%0A%3Cdiv%3EWarm+weather+in+the+winter!%3F+sounds+perfect!+I+already+started+to+look+into+hotels.+What+do+you+think+about+this+beach+resort+in+the+image%3F%3Cbr+%2F%3E%0D%0A%3Cbr+%2F%3E%0D%0Ahttps%3A%2F%2Fc.mail.com%2F%401164144562399092858%2Fj3JBb863R6yP7hwI0pBDaA%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%3Cbr+%2F%3E%0D%0AMonica%3Cbr+%2F%3E%0D%0A%26nbsp%3B%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv+name%3D%22quote%22+style%3D%22margin%3A10px+5px+5px+10px%3B+padding%3A+10px+0+10px+10px%3B+border-left%3A2px+solid+%23C3D9E5%3B+word-wrap%3A+break-word%3B+-webkit-nbsp-mode%3A+space%3B+-webkit-line-break%3A+after-white-space%3B%22%3E%0D%0A%3Cdiv+style%3D%22margin%3A0+0+10px+0%3B%22%3E%3Cb%3ESent%3A%3C%2Fb%3E%26nbsp%3BSaturday%2C+October+22%2C+2022+at+11%3A51+AM%3Cbr+%2F%3E%0D%0A%3Cb%3EFrom%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BChris+Cox%26quot%3B+%26lt%3Bchris.nixon.cox%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ETo%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BMonica+Sky%26quot%3B+%26lt%3Bmonica.l.sky%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ESubject%3A%3C%2Fb%3E%26nbsp%3BRe%3A+xoxo%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv+name%3D%22quoted-content%22%3E%0D%0A%3Cdiv+style%3D%22font-family%3A+Verdana%3Bfont-size%3A+12.0px%3B%22%3E%0D%0A%3Cdiv%3E%0D%0A%3Cdiv%3EIt+was+really+something+wasn%26%2339%3Bt+it%3F+I+was+thinking+we+could+run+it+back+this+holiday+season.+Megan+will+be+out+of+town+for+a+cyber+security+conference+after+Xmas.+I+heard+the+weather+in+Cancun+is+great+all+year+round.%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%3Cbr+%2F%3E%0D%0AChris.%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv+style%3D%22margin%3A+10.0px+5.0px+5.0px+10.0px%3Bpadding%3A+10.0px+0+10.0px+10.0px%3Bborder-left%3A+2.0px+solid+rgb(195%2C217%2C229)%3B%22%3E%0D%0A%3Cdiv+style%3D%22margin%3A+0+0+10.0px+0%3B%22%3E%3Cb%3ESent%3A%3C%2Fb%3E%26nbsp%3BSaturday%2C+October+22%2C+2022+at+11%3A49+AM%3Cbr+%2F%3E%0D%0A%3Cb%3EFrom%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BMonica+Sky%26quot%3B+%26lt%3Bmonica.l.sky%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ETo%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BChris+Cox%26quot%3B+%26lt%3Bchris.nixon.cox%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ESubject%3A%3C%2Fb%3E%26nbsp%3Bxoxo%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%0D%0A%3Cdiv+style%3D%22font-family%3A+Verdana%3Bfont-size%3A+12.0px%3B%22%3E%0D%0A%3Cdiv%3EHi+Chris!!+Just+letting+you+know+that+our+little+vacation+was+amazing.+We+really+got+to+do+it+again+XO.%3Cbr+%2F%3E%0D%0A%26nbsp%3B%26nbsp%3B+%26nbsp%3B%3Cbr+%2F%3E%0D%0AMonica%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A&menu%3AbuttonContainer%3Acontainer%3AbuttonContainer_body%3ArightContainer%3Acontainer%3ArightContainer_body%3Acompose-form-submit-send=1HTTP/1.1 200 200
+Date: Sat, 22 Oct 2022 10:56:43 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-UI-INTERNAL-GURID-SUFFIX: Y1PMa80UyryHDr2rK8vqEgAAATY
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Ajax-Location: ../../home;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=3, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/xml;charset=UTF-8
+
+85
+...........I.J..-J-...+N..)JM.,JM...Q.vvq.q.........T...........[C#cs#c#.KC..7W.S.G.'Gg..cg'c#S...<#...D....X;.}.............j..@....
+0
+
+GET /mail/client/home;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/mail/compose/html;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b?editorAction=REPLY&mailId=tmai17205e993134bffc&showExternalContent=true
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x966; shownPromos=3525940#1666358551199|1|false&3226736#1666372892898|1|false; wa=0c5fccbaa61293215801e563c5c6d5ba; _ga_V2FMR8VFB6=GS1.1.1666435020.6.1.1666436151.0.0.0; _ga=GA1.2.268807319.1666358558; _gid=GA1.2.1572400341.1666358561; _autuserid2=7156955535842280725; __gads=ID=ba1667ca2d799022-227b6b6a44d6002f:T=1666358572:S=ALNI_Ma1J7Wvc3WkT0g_i1_NcUR7RbZSsw; __gpi=UID=00000b13dbce0583:T=1666358572:RT=1666432466:S=ALNI_Mb2jykv-l8MILwC5NUTsbk62rFCgA; cto_bundle=k81dzV9EVVFMVnhDJTJGejk3cFpyVkxKZHRIc0dsNU9YRzYwMHZaa2x5JTJCUkVuRERaZEFCYTRCbE1wbjlIV3d0cUdpTHo2VVF2a2FSUTN4WDdvaWozRXdhZjZsT3k2MGtkUFF1Mms1aHNQZGpjV3cyS2o5aUFjWFdDN3AzbTdjMzVjcjB3aXZob3lxUzZSTnVyTFRDZyUyRllnSnA1aENpczBkODE2ZWFxSzVtTlRxN1pLM1ElM0Q; tp_id=JZsnKWKuDAGsTOZBrh-IF_P0sWwkTt_Gz-zrkBkEi1q_q1PY3oR-M7bolRyqqWSmyMjG9w; cto_bidid=8xt5xF9zNDJTWUVJWllXJTJCSllpVGFiRGxwbmJ5Uk1JM1VSUUZLUHRTRmtaVHpFZTJteVNTJTJCRFQxdkwxQjViayUyRlZBTSUyRkVhbnJSc3hTdE5nQmdMT3Z3VXZYcjM2TWFBRjIzTlYxNGUwU1clMkZPc1BZUTJlQjlwd1doT1BZSlJJZ1BXTGpEQXZRU0dPSlB4bEJMU2VzQXVLdVolMkYxZ0ElM0QlM0Q; cto_dna_bundle=jHtrFF80M0RITmhlJTJCZkMwOUJGQlhaMUN2czd6Tkxka3l6TzZ4dnhmMHJjVllIS3pVTHhlVWtvY2o3MFBUNTF3JTJCMWJMSw; 2Q7NMZu76Rc25582cf-8ed3-43a7=~183ff55cc7c#c25582cf-8ed3-43a7-a9c9-72b192581e67; iac_token=78eda9513fbdaf9a139646f9c17b7646
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+
+HTTP/1.1 302 302
+Date: Sat, 22 Oct 2022 10:56:44 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Location: ./folder;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b
+Content-Length: 0
+Keep-Alive: timeout=3, max=98
+Connection: Keep-Alive
+
+GET /mail/client/folder;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/mail/compose/html;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b?editorAction=REPLY&mailId=tmai17205e993134bffc&showExternalContent=true
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x966; shownPromos=3525940#1666358551199|1|false&3226736#1666372892898|1|false; wa=0c5fccbaa61293215801e563c5c6d5ba; _ga_V2FMR8VFB6=GS1.1.1666435020.6.1.1666436151.0.0.0; _ga=GA1.2.268807319.1666358558; _gid=GA1.2.1572400341.1666358561; _autuserid2=7156955535842280725; __gads=ID=ba1667ca2d799022-227b6b6a44d6002f:T=1666358572:S=ALNI_Ma1J7Wvc3WkT0g_i1_NcUR7RbZSsw; __gpi=UID=00000b13dbce0583:T=1666358572:RT=1666432466:S=ALNI_Mb2jykv-l8MILwC5NUTsbk62rFCgA; cto_bundle=k81dzV9EVVFMVnhDJTJGejk3cFpyVkxKZHRIc0dsNU9YRzYwMHZaa2x5JTJCUkVuRERaZEFCYTRCbE1wbjlIV3d0cUdpTHo2VVF2a2FSUTN4WDdvaWozRXdhZjZsT3k2MGtkUFF1Mms1aHNQZGpjV3cyS2o5aUFjWFdDN3AzbTdjMzVjcjB3aXZob3lxUzZSTnVyTFRDZyUyRllnSnA1aENpczBkODE2ZWFxSzVtTlRxN1pLM1ElM0Q; tp_id=JZsnKWKuDAGsTOZBrh-IF_P0sWwkTt_Gz-zrkBkEi1q_q1PY3oR-M7bolRyqqWSmyMjG9w; cto_bidid=8xt5xF9zNDJTWUVJWllXJTJCSllpVGFiRGxwbmJ5Uk1JM1VSUUZLUHRTRmtaVHpFZTJteVNTJTJCRFQxdkwxQjViayUyRlZBTSUyRkVhbnJSc3hTdE5nQmdMT3Z3VXZYcjM2TWFBRjIzTlYxNGUwU1clMkZPc1BZUTJlQjlwd1doT1BZSlJJZ1BXTGpEQXZRU0dPSlB4bEJMU2VzQXVLdVolMkYxZ0ElM0QlM0Q; cto_dna_bundle=jHtrFF80M0RITmhlJTJCZkMwOUJGQlhaMUN2czd6Tkxka3l6TzZ4dnhmMHJjVllIS3pVTHhlVWtvY2o3MFBUNTF3JTJCMWJMSw; 2Q7NMZu76Rc25582cf-8ed3-43a7=~183ff55cc7c#c25582cf-8ed3-43a7-a9c9-72b192581e67; iac_token=78eda9513fbdaf9a139646f9c17b7646
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+
+HTTP/1.1 200 200
+Date: Sat, 22 Oct 2022 10:56:44 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-UI-INTERNAL-GURID-SUFFIX: Y1PMbM0UyryHDr2rK8vqFAAAATc
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=3, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+
+2cdf
+...........}.v.F.....A.,...<..=..X},.-..>q..@.H...6.j..|....ew....@..&;.Ww...k..kz.C.m....
+.i0...^....u....|.....2!.gW.....b].....].$.L.l...LR.)...........11.pg#{A.K7X	MN5tG...D.?_E?ts.*..Q..-.'*..Q...b.....G{..".D7._.H..h..F....;j.u..........WG
+.eP....c.{>	:.O.ZSU
+./a.........l.O		..h.W4|_U...#...o.
+~~a.....
+.C...B[0l.:,\X.g..<.... .?.....wA.....2m.....<.Wm.*.aq..T..a..+.[.a..U....+y..a.k.e`.6..._.>v.@(.r..........
+....0>..:Ke...R........`...9....JG...<..'..V.....U. j..0...	.W ...	.$x.
+...e_A.x.....[..?!7_T...^..d+.>.^j.>#.\7...$Q......._>..l.D...d_.y....hq.m
+..zW=..G........}.A"..D.\i.+.~.T....Z..<....J..R.5..S.Co......R.....[...: ...E..k.....Uj...Z.U...\)./8(.t.....>y..Dm.u.'9*.&.+o<<..[@e.
+...9..5O..$.....@}?....c.[.....;....d.Y.....d{f....@;..'...
+>..
+<..>l4J.R.:.
+J.j.Wm4.(...r3..T.-..s. .&..-A2...........7t.~.u._........v_..6.C-G?g,.P..PM@3o.
+...:=z}6....=...QK..i...A.8 .....LPf.Mb..Z.2......*.z.>n....._.6(.S.hl9..;.....
+.,.>v/.b.^.7.5.X..M....[.J.X.Tt.......-.n.WG...5#."P..b...&ZN.m..gX..N....Y.-......D.ae..U{.Z.R.vk.~.Q.4.....z..J...m.^.....|n[.t.:y..#.U.....jay....R
+&...d......@..l......p..!S..&)@.~a.R...8....0...l~.R..$`:....$..$.4.$]...S.)...L;&A^....b9V....H...b3...-fQR./...f...A.c...|
+..q.d5..../.v\.1.eNq\....P.y....Y.D..L.Z.]2&.G<...Y`...)x*.....Rh...-&....p4.S....mZ....[k....Ae.j......J..Yovk.J.[..?..........0FA...D...A..u
+.@...|9_,PS@.4...YN...:fc..c/..b....
+..XM.F.x.\...'p...\..\J.R..vn0hU.B.J.V......A...7....Ga$..8	=n
+^.Z..t....R.5J.Rwp.8..z.~........u.....<.....mk....y:K...&.....T.W
+&8...<W..IM....w...UK..K.....J.w.;r.+1Y.uM.@.0.0.}..Y..T.sA}.\'Y.....c..](...]....x.2......rJ...^z...X.......`[y.'P2.=ju?.....A....u.....YHYUL=.5..j....@n7v.B...n.... ....vA:<.jH..2.+hv..A}: >.x.v....z...B..k...1.K.....L../A.:...ls.Q...j%
+. Q...j4...=.....N$...X.....0...i.h..P.Gi.....=e...Te.
+...x.0V6..X(.<...t.....jqi.....a..rJ.q...\P..../.....u.w...B
+x.>4.u.......3Q|.A..1^.........Gf..J...Z$dm.<L..2..
+|.`.-`\.M..1.."....|.....".hRm......l..a..g.g.x...E.
+H#z....E;\.R..?.L`.L.i....N...AN.]g....<...'....w.e.5....y..5....M....A-...Ng../...g...fy\.7.q.^l.. .V....b.E...i...V.Zo...f.D..y....Y.^.J?.}.-..8......(..Aq...zO.?&3..(]...6RQ.
+....W+._..:p...Z.|i....5.z
++.,C.6.L-..'(Yj.6w}..!6.(...1...."k.......\.....;e-..,j.*o..x.......n.g..o...^'Blz.8.Yr..9.m^.x.jC.J..
+.TM.+..
+./z.b.jR.F. ..h\T..h.........7..X.?.....B.`U......\ ..i.y...s...c...=.><..#~P......1...&
+SLi.J%.u.,R.`f!......K..._..V...3HP..Z.H..*/..	..>..X#.....ON..9...........4.q..2..A...;0.e..8...*1{..j.*.".tl.K.......1.........3....T>|Z)K.44v
+.D.O...E	..f]..X.Te..n.^b8@.....x'....@.....&j3..v`.....lA..;....	..$`Ch....,....I.j..wP.g..3'.......E%.z.B.X,.0r.M..N../.U...Z.V...
+.........r.).
+!:.Y....B..9.
+(..	YE.n...4.e..).......BQ...>...%.5..9e..k,|...	..J(..).4.u.L.....:..G6q&....(...j8W.j..^Y...*..P..26..D......d.U2../.q...%....P>Y.kp.k..<j......Es.:....&4.
+..s<...0.|...jL..G
+._9..`!..9....+..
+..}5.(.8:....@..H
+.23.....Q...&.|....s.pjG.gN....GX...Ln.|e.X(.RX......F..'E.umf.$.N......i.
+...|....a[.......E..-.-#$/~,VZ{....n/.....P...>k....G.	...b......0.I.N+-:...o..O...M%Sn*.,7..... S..A..~..:..DR......!.[...SIH.....QZ<......-..-:.J...sYa....%E..BB*Jw. .k.........@O..q..+q3W.9......v.4G.]..N}E.J.%.....&......r&.".......n....)......._.Z.#.....C ....`	....,.9..H..Q.s6.r..N....*..MoB..T);6..w..Z....G....vl.f".Hb....x..].X<.T.n6
+.{.k++&.1.[... .2YX.f..-..$.NQ. .v..e.e.z.../.M....d1.Fh...a....\;3....(.iR....g....&u)...v..,o..-.,..4.E............e...... ..PhC7...r..K*%...Hbf<....<t.qV$.$;..5......N..'.n.."...M...FudTj....Yf..9+gzg.L..t...TyH.K.B(L.?.rN=...N.P*/..."_..T..u
+..-.N[+.q.........]|...ZM.f..*t...R.A...AH..^h.....P....%......~.....]-=....bO.fg.....j9Cq
+........rq4...Q.[.	..m.7QW..UW|.!..g!.p.
+......|.........&..*............_*1.....[$&...KL.A%..AH.....>.as..."_...... ..JnD<'c..........."E{..[..q[.....T.jZ"..)....B.uMSq...5.~..0....^.b..-.y..@7.@g.0R...xj..{....lf..=....43c@...6........o%......X.f;'..@Y5.X...L.ft.)...O*.Hn
+)f.......->.
+.....C...4<2............FL....5.	...b..
+....z...x.~*/.`....c].x.........`/...3r..O.....#.....M..[aK.~...!d,k&..\!..Ei..n...Fe..3%%.	u.:...KGS...e.......R....=r....,U.t;k....!e.C.>...`..=...as..8.&*......Ay.........Z.....S....
+}z..%..I.m..,.].:SI.)....Qq.T.s..!.....(.H......
+....Y^4..w6..w...2.N.q[..,F.8....=1..o.......N.9nt...(..*^...j
+h......H...b...a..S...]E.2m1 .R..5q(.m.-.[..MS..	,..E.5......].,.rk.....V........E......D.C..Nep.LYKpl.
+....\.tl....../#'....
+=t.f..Cm..3.......K.7k[Y8J...g........A...9..^...h..X.)<>-`...d.$2...8|..
+...L...o!..t.0ue5<(1..GD'%.~.v.=......-;.......].G$..p..B...\.....&.vq~.7%...."...G.k/..g.q..JE.
+.........E[.mp.........G.DQ..R..M.g........e.b.3..q.....{X2;...e.i]{......S.....G.S_..>.z\.."Q'.{....{Sb|.kc....j.x.-..m..q.o.<.!..-._..b.D.m.]....!..I..S..2"t..d4.o....r.6#..`.{..t/.....(.u$2e#.{$..0`H....kv..D.j..,{b..T....T._M...y";.....4@.Z.,(v..;V....x...).. h...#.a.....]...j.. I....,DAD(.
+.P1........c...l[.o.r'....._G.R[.......vR.F.!..e}..)...{2..)....7..2.=..<.....f.8j...............CH..7H...}Vt_.....z....e|.....e.yB(.)(.7P...l....p.....i+.i].%J...w.u..Th....U2...i..:o.y9.R.......O..V....Q7..>...]...7......DK...m..ldQY..g..^%.i...W^ep......6.1.[x.V]..`6s.{f&3.e.w..5k..y.......6/P.6....J..E..s......{....	..^.....ag...........5...M..rC.HP........c^n.AV.i.j.4....{1....p....gM....]...x.;..UB%G.9..Ij..#.....e.S.F...SH..)..G
+.G..v.;.o....oT.JF.....E.....j....UO].A..Q....^}VZIT.S.h.V...P-..3..,ZW...@..U...<.UNxHA...F..p+...m
+..+uc.8..n.:4VP.'x1t\...Q.h.B/.^.!..	.(`..W..7..|$K.%..w..q.?..	.(........H..8Yu......m+.v|.a.P@....t.e>.......2.|.......;..
+....X.[`.9~c"]..c.&~...eP..m..."...XA...(...Da.!Q*..f...............>.....3I.R.^z.J..?...w....d1..s..5I..G{..hx......q..u...gG.I..ol.....?...z..rK(...}..z.h..n......ZB.....y..a..!.u.3z..tOO..WG.7.'....A..S D..H...v.......7..	.."....#6...[.n....
+..6...aw.....tk..).M..0.#.N....-.h...:......py,.........F.....PX.J.;D;.....:..5..y....b ....Y2.R^r...,....u..7.....>
+.f.(v...aw....+..S..Z0....O]....}.{rk...I....../+g.`....o.e......kE@3W.....|q..]....).mf@......U.=.9..s....n.pS.G.....B=.........z..W.vTw.#>.|...._..)...........;....G..H.......kvhU...<4.g..@Gl..;..	l......t..}...F.+NR.L.>'..q.I...x...d)|A&Y...=..A....R..ru.>...2.<O.BC.y.ep......(.k....*..x|.ej.5..).Ba.)..K67.QaH....\@..UF.Bm|,...`.V.............H..D)Oo..Y....U.. ..|...../...va.m(*..f5R-.]........k..-....$.l..
+...o.U..=..m.4....mr....Mf.#J.#."&x.Y.eu.	.t...4A]
+`...G".........\...R...d.Tj.JJ.(.M.J(Ye(Y..J.....A.(.7...........K.+(%9C[..wZx...Q=V.....x..h.t.C.;...a.i.......[..Ka~l.o.W..B.Q..6.}.....g.......".N\.....#_E,XQ.N..	....Rr..Dj64.k.(/....y.;s..P0.3...u:...'<."1...%...NO.F.H.1...-T.o..9%...4.N...`t...1...$
+L.C.5$..[..t.....................
+c....o..@.G.#GluS.Mqe...........i.RmU..f..GL..a..)M0..Fb......Y.^..U...U*..B...n.....8%......R.z..qm[.6.>..vO.. ]..57...y
++..V...,k$..f..Y...vh.xdy..t.6...C.....|?...>....4..z...j...FF:.h........-}z...a.0.{..lE...	v.2.14..$.^.mW7%V..X|Q~.>.:..<...'|.^c.&o...1~....1.... .U../..U.Kc..3......Q..j..+.d...c...K.
+....u..qD....+...l...qA.pa..IP....<......9.......I..wG>...}v.F......M..>...hL.p...<.Wi....F...h...J.78(....p.........<.n...6..f}P)...j.......b...........H.	.B.......C..=.~.........<.z.&..`....?.C.GA+]Z74D...Pe....i6.J..A...6..a._m.U..z.Z..,....i .
+A...~o0.5..F.T.t...r.T..k.j.y..W..P.XM.....Fk0....h...F.Z/.4.....A....i.g..E../.QE........u
+..z.....`.'wT.wF...(.k.z..+6....Ae.j...amX.U..~...\/.t1..q.E0-k.Tj...r.T.t..=%Z.e./..a..n...HC<...r...X.T..a....jt..a...t...%j.........&.)...0.y...3.;...*_...vL.X..l7....l.S.".n.?bK@.h`.9....,W.+DJ>.{........D...>|.;...v.....W.....s..t'.]m.....~W..klWV...w....u..H	{&....5... ].............7D.T....QG.
+~.....^.......A.....w.i.a........X...	...].H.$9.i..hT.f..[............j..........?>..N..x..N.Qw....F...bT...Y.n..n.N..$....#........?.T...n..1.6..~
+...._E-v.(0.O._.....F..".E........o<\.;......w..O......".....q.k|..
+...#..g....p..2..H...6.....ry..C
+}.$`....D.XO...uh+#..Q..1=.....TI|^.....d.+.U...~y.M.
+.Y...!X./....+.c....TQ<(...}+..H..}..G.....|.ii...G......0
+.....}S*f3t.6Ew.xs...g\/.uyS\...2.o|....+._X.ulk..T.s$r+..8..x..Y.L..d6x.<....m......?....J.yC\D.#...;....c....HZ..".AA...2..j...U.Uy<5/u..I... 6.s.WDO).*.L.2.S.|..~..#.iSa..S.K.u.......vd...p.........|...};6a.K....l...,Nu..S}.8w#...1>.......l............n..xn.o.&...,-. |#iin -.gi...*.J.{.4)/.gy..........O*/.....;.?.WE.w.....
+.G;_...7.u.L..}...."......=.2..1...9..P......s"........hG..
+.......*.*....l..+.%.Z0....=.r....
+si....................{MO....Z..C........a.na.x.<.L..&'Q........#k7..
+.....J.J`|..WLi
+[nQ.	0o.....v,s7O[...KHPZce..Dq.RT...8XI.c.!........a@.-...:
+gC..n.....`pv..m.."`MN..eF.3.C..v..l.)_.6..3d..xq.m..Q.H...91P....B..T.OB&.jGp.C..!\.m.g.8.k....=.......^.}...."..|.i'.M	..R..Z.)...d7U....r..1m+..$.Lg.1....X..,+
+(U...V....G..Yu!w\.n}.......B.lq.\.....`(PuI....*.y.4.J...!
+....
+.....m~!5......3{....=.w.Z.rvHhU..q)...+.. N*.h_..\....G..e...=..]..........9..V..........6|q.K.|E...m^?..u....s<.{.x....3.Ao.A............./k.....N%../...7..7.....zb./.-..e...F.[9r.hx...TbN\...o\..1.a...j..W@...HV}p.5.I.&Y..$.=8...$K..u.....d...d.sk...VJm.^.@Y...K.._..)..........Fa6^.A..p..D"...s.m..A.0.....j8U../E......Yc..a.n.sw.........&...q...x..\..Q....w.~..e(.....Z..$;..T..a30..h>.HRR._)......d..vW....g	YWBN(......_{(#...YW>V{....A..y..u....................._~....mY.V...5......m..:-..pw`.{v..3...`.. ..m.}.u}..@.w...{.R3.{6....c..X.*#.W.&E.S)..W]%..?.YqK..;8.{...[.?._...../q..m........Q.}..nTi.*.+^..dS...Ei....
+..-..{....].
+..}.3.O=jJ...Z.jv...5.>..Z...^X(.[......_..yC....{.PK.....}.s._.x....~.I
+.b$....8..]
+.....^9.yo.W%.l1.~....3..hEo.=^...........L.....u.I...d...$?..'}.n.Y.j..mpX2.6s...C3...ek.C.....\..]..E..vi&....Tt.....d........f...	..A...=c;.l..f+..|..g._3;.u.3.v..Z".a=.]...-L....2rW...'.	.o.b.9.._."s.Cb..M.=.M.l[.{.s...po .N.O..[..L..%]{......~.p...$...0.y..>>y.
+3s..n
+...|V......oU....+.....2....,.P!..(K......S<...`}m.o#]i^.=.z..P...c;..;t..I....k/fNL+ ....0m0m.J...+..'b.a/..~.x..].T.."..HO.ue`3.?.q.....l.......c..,..+......=m......4<..y+y.~...
+&K..9Ra|.7].S.B...e.L.....2].&_.....{&......
+..c.
+....	.4.:9l'. ..m1...(.......;..^.w).=a..%..EX2...Oj...{...O;........7l..`..~P......Q.B.......F..K.$.v).....'5 '..H.j#.GRS.. ,.E...S..}Q)&.6[..RYY08..B...U".j...Y.Y....n..O.rVLJ...?.TA......T...W.r.B3...F......$.......U......t.~c.`f...G?J8E....^v.H......}.....H..D...e..c..yh.{..N.f.w.....g...w.........c5.W_.K.K$Em.i3K[.T...J.u...D[..xF..D.....d......2t=v.f/...)~...?x=8......~pr....-.B.Lh|.....8G...r.X.....2QW.o.S-.....B{.G5.T6...........................
+v.d?..y...-..3..#=..=pw.......>......z..9..,.	N.r.........!.2thf..|l.a7.-_.M}.^..-'.0G<......v..,.9..........z.Ps..Z..DI..\.=\.j....
+..`...nZR...p2....s..6.Q...8#JtO.U.+..n....e.Gc..F...{C+....(..z.....-.R........_@X(W<.......F.4d+...|zl?w..r..t.a..Ev~..'<..$..RNDO!?....&|x~.6-}..........&_....m.L.)pU)....1O[...9:..z.'..r.&i....TK..cZ.m%....'...
+....h...J+.0...u....A...W.......2H.......W..h.#...j.P.9.+....<.Xw+.......7..&{.=.E..P.}@....u.[.......T.h........=K(...w".tS."..4c...M.Y.0...A....9.!.i>..t.0........C@nV..fZ(.....j.h..}G..d.O...t$..l......j...ul...
+.A.A..Q..../...R....g....I.q.0*.@C.7@......s..._..B....0.....j........+....FW......zw.m...y...
+{........u'3.......[.U.%/..I_.)?G?g.E&Q0....c..6..M..
+s..[..2D....%..s.....g`.....'g.o....a.....v^.MU|>=.=.,^{.O..v..pg[&$%.C-..h<.f.!....@\..A.~.
+..[~...W;..]@z.K...z.R).?..-^]w.V.pC.....L%n..m..!N..F.D...-7p..t..>.......N@<...;.....L.\.'.7. ..............Iec.U......{i.=p!..
+....i.G.[.....|5V.?....E..+(..w r........f...=....L?...+7Q..X..\|...M...?.......33.M....
+0
+
+GET /mail/client/folder;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b?6-1.IBehaviorListener.2-&folderId=tfol171f25496fce230a&_=1666436204598 HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/folder;jsessionid=1237232D914DFED58A8BAC803CB3258D-n2.lxa05b
+Wicket-Ajax: true
+Wicket-Ajax-BaseURL: folder
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x966; shownPromos=3525940#1666358551199|1|false&3226736#1666372892898|1|false; wa=0c5fccbaa61293215801e563c5c6d5ba; _ga_V2FMR8VFB6=GS1.1.1666435020.6.1.1666436151.0.0.0; _ga=GA1.2.268807319.1666358558; _gid=GA1.2.1572400341.1666358561; _autuserid2=7156955535842280725; __gads=ID=ba1667ca2d799022-227b6b6a44d6002f:T=1666358572:S=ALNI_Ma1J7Wvc3WkT0g_i1_NcUR7RbZSsw; __gpi=UID=00000b13dbce0583:T=1666358572:RT=1666432466:S=ALNI_Mb2jykv-l8MILwC5NUTsbk62rFCgA; cto_bundle=k81dzV9EVVFMVnhDJTJGejk3cFpyVkxKZHRIc0dsNU9YRzYwMHZaa2x5JTJCUkVuRERaZEFCYTRCbE1wbjlIV3d0cUdpTHo2VVF2a2FSUTN4WDdvaWozRXdhZjZsT3k2MGtkUFF1Mms1aHNQZGpjV3cyS2o5aUFjWFdDN3AzbTdjMzVjcjB3aXZob3lxUzZSTnVyTFRDZyUyRllnSnA1aENpczBkODE2ZWFxSzVtTlRxN1pLM1ElM0Q; tp_id=JZsnKWKuDAGsTOZBrh-IF_P0sWwkTt_Gz-zrkBkEi1q_q1PY3oR-M7bolRyqqWSmyMjG9w; cto_bidid=8xt5xF9zNDJTWUVJWllXJTJCSllpVGFiRGxwbmJ5Uk1JM1VSUUZLUHRTRmtaVHpFZTJteVNTJTJCRFQxdkwxQjViayUyRlZBTSUyRkVhbnJSc3hTdE5nQmdMT3Z3VXZYcjM2TWFBRjIzTlYxNGUwU1clMkZPc1BZUTJlQjlwd1doT1BZSlJJZ1BXTGpEQXZRU0dPSlB4bEJMU2VzQXVLdVolMkYxZ0ElM0QlM0Q; cto_dna_bundle=jHtrFF80M0RITmhlJTJCZkMwOUJGQlhaMUN2czd6Tkxka3l6TzZ4dnhmMHJjVllIS3pVTHhlVWtvY2o3MFBUNTF3JTJCMWJMSw; 2Q7NMZu76Rc25582cf-8ed3-43a7=~183ff55cc7c#c25582cf-8ed3-43a7-a9c9-72b192581e67; iac_token=78eda9513fbdaf9a139646f9c17b7646
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+HTTP/1.1 200 200
+Date: Sat, 22 Oct 2022 10:56:45 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-UI-INTERNAL-GURID-SUFFIX: Y1PMbc0UyryHDr2rK8vqFQAAATg
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=3, max=96
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/xml;charset=UTF-8
+
+135
+.............n.0.._..
+.A
+(..1.{.we.(..Y...B\....-Y.,.Mszz....?..?..A.TR...|d....D.F..7w.6YJ>....QR4......m....u...l.
+....sQ.......6.Us.. ]U...kUaH.,.M..b..F.-/H......(.....`>.[Q.)v...-....KM...........#..!..p.(..O........I........%...#..F.,....~.B...!..."...dYrp....|....K.Z....Y......,...kz..o.........m.....
+0
+

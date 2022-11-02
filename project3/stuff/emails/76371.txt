@@ -1,0 +1,232 @@
+POST /mail/client/mail/compose/html;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b?4-1.IBehaviorListener.0-compose~form-composeHeader-buttonSend&editorAction=REPLY&mailId=tmai17205fa2f742f602 HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/mail/compose/html;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b?editorAction=REPLY&mailId=tmai17205fa2f742f602&showExternalContent=true
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Wicket-Ajax: true
+Wicket-Ajax-BaseURL: mail/compose/html?editorAction=REPLY&amp;mailId=tmai17205fa2f742f602&amp;showExternalContent=true
+Wicket-FocusedElementId: compose-send-button
+X-Requested-With: XMLHttpRequest
+Content-Length: 4321
+Origin: https://3c-lxa.mail.com
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x927; shownPromos=3525940#1666358537650|1|false&3226736#1666372705589|1|false; wa=5b11998362295c70ee60db65efe14ecb; _ga_V2FMR8VFB6=GS1.1.1666434970.5.1.1666437048.0.0.0; _ga=GA1.2.1842012434.1666358554; __gads=ID=daf3c4a3cd37a330-22074d8744d60093:T=1666358554:S=ALNI_MYn3zkXkVX0_Ajby93ZCDLcbo_uGw; __gpi=UID=00000b13db3a9bd6:T=1666358554:RT=1666432341:S=ALNI_MYQet6ZsRdJaN4G1P-JqC6UPodzyw; cto_bundle=jxAj6F9maGRYUDg5RkdIeWRSZ3E3T0UwbjNMUWdVNXhTYnNHYzhKWEclMkJiVXNUTWZ4OURUZU9qcFBpSGtUSjl6YWpmdjNkRjglMkIxUjlHbUxuR1dBd0R2MFZyQkdYbWJXWkFKVEhFM29KR0NvbFZxTVFsbUZnTUlLM050JTJGM3Uxek16OVklMkJr; _autuserid2=7156955583134631189; _gid=GA1.2.1487877590.1666358580; tp_id=pmwrDUrnmVYZ78ZENt-2Jj9U1cL95exMQc1sAz2Do9KIdLF6V2rOetIprGC0NDC1_THJUg; cto_bidid=mo5wYV9DT1NrbGs0YjV6R0glMkJJNEQ3YVpVT1FhZW9PSFIzNWVaZ1gzTTdsMCUyQnR6TllTZndDWU1RMERzR21jZGglMkZ2T25IeEpEZ1VCbWlYa1cydGJMJTJCU1YlMkZwR2lJUlQ5VEJ1NDBoQXIlMkJHendQaUolMkZJJTNE; cto_dna_bundle=94XkBF80M0RITmhlJTJCZkMwOUJGQlhaMUN2c3p1NEVhZDBoaGtHJTJGQ3M0d0YwWndDQVZIQUZ5Mm52RURGTnhkTTdCNlN4RQ; _gat_UA-56857562-5=1; 2Q7NMZu76Rad3db68e-ff65-4391=~183ff637de8#ad3db68e-ff65-4391-a0af-6078bc4a89e7; iac_token=0f9e4472beda041d12dd0d4c8fffecca
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+compose-form_hf_0=&composeHeader%3Afrom%3AmailObjectContent%3Acontent%3Adropdown=%22Chris+Cox%22+%3Cchris.nixon.cox%40mail.com%3E&composeHeader%3Ato%3AmailObjectContent%3Acontent%3AmultiObjectInput=%22real.life.trinity%22+%3Creal.life.trinity%40protonmail.com%3E&composeHeader%3Acc%3AmailObjectContent%3Acontent%3AmultiObjectInput=&composeHeader%3Abcc%3AmailObjectContent%3Acontent%3AmultiObjectInput=&composeHeader%3Asubject%3AmailObjectContent%3AmailObjectInput=Re%3A+We+know.&attachments%3AscratchIdList=&attachments%3AuploadMessage=&attachments%3Afilenames=&transferOptions%3Apriority=NORMAL&body=%3Cdiv%3EListen%2C+I+don%26%2339%3Bt+think+you+understand+with+who+you+are+talking+to.+I+suggest+you+give+up+on+whatever+plan+you+have+while+still+let+you.%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv+name%3D%22quote%22+style%3D%22margin%3A10px+5px+5px+10px%3B+padding%3A+10px+0+10px+10px%3B+border-left%3A2px+solid+%23C3D9E5%3B+word-wrap%3A+break-word%3B+-webkit-nbsp-mode%3A+space%3B+-webkit-line-break%3A+after-white-space%3B%22%3E%0D%0A%3Cdiv+style%3D%22margin%3A0+0+10px+0%3B%22%3E%3Cb%3ESent%3A%3C%2Fb%3E%26nbsp%3BSaturday%2C+October+22%2C+2022+at+12%3A10+PM%3Cbr+%2F%3E%0D%0A%3Cb%3EFrom%3A%3C%2Fb%3E%26nbsp%3B%26quot%3Breal.life.trinity%26quot%3B+%26lt%3Breal.life.trinity%40protonmail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ETo%3A%3C%2Fb%3E%26nbsp%3B%26quot%3BChris+Cox%26quot%3B+%26lt%3Bchris.nixon.cox%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ESubject%3A%3C%2Fb%3E%26nbsp%3BRe%3A+We+know.%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv+name%3D%22quoted-content%22%3E%0D%0A%3Cdiv+style%3D%22font-family%3A+Arial%3Bfont-size%3A+14.0px%3B%22%3E%3Cspan%3E%26quot%3BFinally%2C+I+entrust+you+with+my+biggest+secret+as+I+feel+i+won%26%2339%3Bt+be+able+to+rest+in+peace+if+I+take+this+secret+with+me+to+the+grave%26quot%3B%3C%2Fspan%3E%0D%0A%0D%0A%3Cdiv%3E%26nbsp%3B%3C%2Fdiv%3E%0D%0A%3Cspan%3ESurely+you+recognize+these+words.+Great+men+always+carry+the+biggest+secrets.%3C%2Fspan%3E%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv+class%3D%22protonmail_quote%22%3E-------+Original+Message+-------%3Cbr+%2F%3E%0D%0AOn+Saturday%2C+October+22nd%2C+2022+at+12%3A07+PM%2C+Chris+Cox+%26lt%3Bchris.nixon.cox%40mail.com%26gt%3B+wrote%3A%3Cbr+%2F%3E%0D%0A%26nbsp%3B%0D%0A%3Cblockquote+class%3D%22protonmail_quote%22%3E%0D%0A%3Cdiv+style%3D%22font-family%3A+Verdana%3Bfont-size%3A+12.0px%3B%22%3E%0D%0A%3Cdiv%3EIf+I+had+a+dollar+for+every+extortion+email+I+received+I+would+give+5+million+right+now...+I+commend+you+for+the+effort+but+surely+you+can+do+better+than+the+moon+landing+ahahah.%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv%3E%26nbsp%3B%0D%0A%3Cdiv+style%3D%22margin%3A+10.0px+5.0px+5.0px+10.0px%3Bpadding%3A+10.0px+0+10.0px+10.0px%3Bborder-left%3A+2.0px+solid+rgb(195%2C217%2C229)%3B%22%3E%0D%0A%3Cdiv+style%3D%22margin%3A+0+0+10.0px+0%3B%22%3E%3Cb%3ESent%3A%3C%2Fb%3E%26nbsp%3BSaturday%2C+October+22%2C+2022+at+12%3A06+PM%3Cbr+%2F%3E%0D%0A%3Cb%3EFrom%3A%3C%2Fb%3E%26nbsp%3B%26quot%3Breal.life.trinity%26quot%3B+%26lt%3Breal.life.trinity%40protonmail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ETo%3A%3C%2Fb%3E%26nbsp%3B%26quot%3Bchris.nixon.cox%40mail.com%26quot%3B+%26lt%3Bchris.nixon.cox%40mail.com%26gt%3B%3Cbr+%2F%3E%0D%0A%3Cb%3ESubject%3A%3C%2Fb%3E%26nbsp%3BWe+know.%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%0D%0A%3Cdiv%3E%3Cspan%3EGreatings+Mr.Cox%2C+%3C%2Fspan%3E%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%3Cbr+%2F%3E%0D%0A%3Cspan%3EFrom+this+very+moment+you+have+exactly+12+hours+to+transfer+5+million+USD+in+Bitcoin+to+the+address+12Zy8YnQ5rWujPAKGimiQTyw7DRJnkWECT.%3C%2Fspan%3E%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%26nbsp%3B%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%3Cspan%3EWe+are+aware+that+your+main+Bitcoin+address+is+1FPyLC1sK1jctnjgHiTSvUjaLsiWCqFZMQ+therefore+you+can+comfortably+afford+it.%3C%2Fspan%3E%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%26nbsp%3B%3C%2Fdiv%3E%0D%0A%0D%0A%3Cdiv%3E%3Cspan%3EIf+the+transfer+is+not+done+by+the+aforementioned+deadline+we+will+make+sure+the+entire+world+knows+that+the+United+States+of+America+never+landed+a+man+on+the+moon+in+69.%3C%2Fspan%3E%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fblockquote%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E%0D%0A&composeHeader%3AbuttonSend=1HTTP/1.1 200 200
+Date: Sat, 22 Oct 2022 11:12:14 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-UI-INTERNAL-GURID-SUFFIX: Y1PQDsrZIbRDbBr18ZoYXwAACJY
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Ajax-Location: ../../home;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/xml;charset=UTF-8
+
+85
+...........I.J..-J-...+N..)JM.,JM...Q.vvq.q.........T...........[7G'.'c.'''.sc.S7.c7...WS#K.3.3sW.<#...D....X;.}.............]r......
+0
+
+GET /mail/client/home;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/mail/compose/html;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b?editorAction=REPLY&mailId=tmai17205fa2f742f602&showExternalContent=true
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x927; shownPromos=3525940#1666358537650|1|false&3226736#1666372705589|1|false; wa=5b11998362295c70ee60db65efe14ecb; _ga_V2FMR8VFB6=GS1.1.1666434970.5.1.1666437048.0.0.0; _ga=GA1.2.1842012434.1666358554; __gads=ID=daf3c4a3cd37a330-22074d8744d60093:T=1666358554:S=ALNI_MYn3zkXkVX0_Ajby93ZCDLcbo_uGw; __gpi=UID=00000b13db3a9bd6:T=1666358554:RT=1666432341:S=ALNI_MYQet6ZsRdJaN4G1P-JqC6UPodzyw; cto_bundle=jxAj6F9maGRYUDg5RkdIeWRSZ3E3T0UwbjNMUWdVNXhTYnNHYzhKWEclMkJiVXNUTWZ4OURUZU9qcFBpSGtUSjl6YWpmdjNkRjglMkIxUjlHbUxuR1dBd0R2MFZyQkdYbWJXWkFKVEhFM29KR0NvbFZxTVFsbUZnTUlLM050JTJGM3Uxek16OVklMkJr; _autuserid2=7156955583134631189; _gid=GA1.2.1487877590.1666358580; tp_id=pmwrDUrnmVYZ78ZENt-2Jj9U1cL95exMQc1sAz2Do9KIdLF6V2rOetIprGC0NDC1_THJUg; cto_bidid=mo5wYV9DT1NrbGs0YjV6R0glMkJJNEQ3YVpVT1FhZW9PSFIzNWVaZ1gzTTdsMCUyQnR6TllTZndDWU1RMERzR21jZGglMkZ2T25IeEpEZ1VCbWlYa1cydGJMJTJCU1YlMkZwR2lJUlQ5VEJ1NDBoQXIlMkJHendQaUolMkZJJTNE; cto_dna_bundle=94XkBF80M0RITmhlJTJCZkMwOUJGQlhaMUN2c3p1NEVhZDBoaGtHJTJGQ3M0d0YwWndDQVZIQUZ5Mm52RURGTnhkTTdCNlN4RQ; 2Q7NMZu76Rad3db68e-ff65-4391=~183ff637de8#ad3db68e-ff65-4391-a0af-6078bc4a89e7; iac_token=0f9e4472beda041d12dd0d4c8fffecca
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+
+HTTP/1.1 302 302
+Date: Sat, 22 Oct 2022 11:12:14 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Location: ./folder;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b
+Content-Length: 0
+Keep-Alive: timeout=3, max=99
+Connection: Keep-Alive
+
+GET /mail/client/folder;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/mail/compose/html;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b?editorAction=REPLY&mailId=tmai17205fa2f742f602&showExternalContent=true
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x927; shownPromos=3525940#1666358537650|1|false&3226736#1666372705589|1|false; wa=5b11998362295c70ee60db65efe14ecb; _ga_V2FMR8VFB6=GS1.1.1666434970.5.1.1666437048.0.0.0; _ga=GA1.2.1842012434.1666358554; __gads=ID=daf3c4a3cd37a330-22074d8744d60093:T=1666358554:S=ALNI_MYn3zkXkVX0_Ajby93ZCDLcbo_uGw; __gpi=UID=00000b13db3a9bd6:T=1666358554:RT=1666432341:S=ALNI_MYQet6ZsRdJaN4G1P-JqC6UPodzyw; cto_bundle=jxAj6F9maGRYUDg5RkdIeWRSZ3E3T0UwbjNMUWdVNXhTYnNHYzhKWEclMkJiVXNUTWZ4OURUZU9qcFBpSGtUSjl6YWpmdjNkRjglMkIxUjlHbUxuR1dBd0R2MFZyQkdYbWJXWkFKVEhFM29KR0NvbFZxTVFsbUZnTUlLM050JTJGM3Uxek16OVklMkJr; _autuserid2=7156955583134631189; _gid=GA1.2.1487877590.1666358580; tp_id=pmwrDUrnmVYZ78ZENt-2Jj9U1cL95exMQc1sAz2Do9KIdLF6V2rOetIprGC0NDC1_THJUg; cto_bidid=mo5wYV9DT1NrbGs0YjV6R0glMkJJNEQ3YVpVT1FhZW9PSFIzNWVaZ1gzTTdsMCUyQnR6TllTZndDWU1RMERzR21jZGglMkZ2T25IeEpEZ1VCbWlYa1cydGJMJTJCU1YlMkZwR2lJUlQ5VEJ1NDBoQXIlMkJHendQaUolMkZJJTNE; cto_dna_bundle=94XkBF80M0RITmhlJTJCZkMwOUJGQlhaMUN2c3p1NEVhZDBoaGtHJTJGQ3M0d0YwWndDQVZIQUZ5Mm52RURGTnhkTTdCNlN4RQ; 2Q7NMZu76Rad3db68e-ff65-4391=~183ff637de8#ad3db68e-ff65-4391-a0af-6078bc4a89e7; iac_token=0f9e4472beda041d12dd0d4c8fffecca
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: iframe
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+
+HTTP/1.1 200 200
+Date: Sat, 22 Oct 2022 11:12:15 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-UI-INTERNAL-GURID-SUFFIX: Y1PQD8rZIbRDbBr18ZoYYgAACG0
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=3, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=UTF-8
+
+2e2e
+...........}.z.F...=...X..@.."Sw...c..IN......."l.....8...g.Ov...;HQ..X..I.Z]{wWw?.a.....o....Y{...C.-..:..O.L{q!.2..#M&...Z...)S&.e0w...ez>&I......,...6'&30[wfck.$S.y	%..k.2....}..~h.X.L.##8.....jG...%K.O;2...G2..4c........+.?...#...g..._.....ud.].El.W....1...x.4e......Qr...=..b..1.`..DE..di..	....v.....n....X...ZDh..eB..sS.....<g......o.
+..*.R..@.e.........Ve8RG.J.>.U..r.5..{.R...T
+..qoc..o..#d.7y.;E $E......"e..<.5.~|...3..r|.F.R...4W...o\g.\.d...>Ic.9..+..O...m..D.."..6....H .ba...A..63.K..L...s=...'..T..j.y.C......bk3..5...@....=.x.....kA'...N..V.P. ........{..,k....B......$B.@..=.W...@.J.6R+#U..k.V.^.7..].@oji...J...c............<..........I...MMe...=.....i. [x...#.=.,...l.@.....V...C7...kkV.8b..x..=...^.4.....z=.cW.......k.,.'w...^4g.E..;;-
+%V..'..A.Y.5..z.R....A...6.e..^..,@=.c.........aK..":A.a...?!.u...........W.........P...8.s..LT....7.W'/..^.......E.m...f..{.P.6H'..w>2.Yu.b.j.<f..VKF.l..Q......:b.....46...3.;6....,.>t....*W*..Y.W'.r.V...*....'j....h`zsK.<.....s.....*..&...m......Fs...........k..........f.<..F.nC.6.....z.W%2&u..+T].Y..-S.....(..`....Z.........jp..
+1.6u\__...c....q ..e...U0X......"(v"8..?.3h..../.j&........,@"W.@....:..tn...c0.e.~.H.m.@:*.:....i..l1...}.....|..I...b.).Z.v..\g..^.......v$.....s..k..L..@t<..U...&.u..+..&.G.|
+...:.....@.]c.<W..G....^.....p....:.U{.a.1..%P=.A.Yovk...[..>x......LB..#...<.@.(.:s."(...Z.\P.d
+(A.........1......P.B.P......X..x.\.8W_.
+..s1....Jj.\k...
+P..&P....~.Wk...Q9..Q.	A.NB....W+.^.Q..+.~.T*u..Fo..w.jw0.p.].k.g...<.....,s......%xEP..Li.|..*E......
+h.....#....g....1..DZ.%..>..q.L.@]....&.:.Oc0...,...OY.$..8Pz."]:.	T..I@..l.Z......PN.m..K.......#Xr.
+...Z
+%......i...
+.....Y.0...B..dh......p.*..vc....|w......F......"WC.^..]B.3...............	.$.I..x."c.....9...	^BP. .....K.AGVJ.w@.H...h..${>.-.h.JDK....J..0...,\T.%..Q.AgaUjO.q."S.R..&.O.c.c..."*..8..=1..RU....l..G.,........B....8q.q_^.w...Q../...|].qa>>.5....$....e]. ./..pd..FF..."!k....pA..S.7.....eYD7.I.....M.Y$..".&.......sV....S.=S?1&.../.V@..s......UH.	~.;..0%R....NE..!.j9.i.S.y...O;........y....../.....;.K0........G.....,@2.F.i..^7&zC..IU.W...J.I}.W....)....R.A	....vT.....|..Z..qJ...$IP@h...Y.......9cR.....TT...A..T........J..._..........B.!.M|C...S.,9J.;.....Q..L&..&...[F$.A....=f0.u.y.Y%......9>.N...?...5
+......D.
+W...O...g.%J.W.6.U	q....ise3K....
+.*.el..}h..E............p=..../...{T...*4z...\....).y...s.....FKsA....'.A
+>	.-%..*..I\1eu+I..HYd...B..........[.9V...3HP..Z.H..*/..).xs...F.ew.L..-.3v9.PK...e...P.... L.-...a..Y	q.).9...C...T%......{,K...s.......#...4_<...G...HAc'aO.~..[.J..m.%8..\U...V.9..H0..:..)z..7..;r0.D.....Lf....-hcf..._0..........3...wv...C$....e{........p^)8.i...j.W..	...`..Y%.x..j./....6..?..N.U..4...f.....`.(..@9.X.*1.F..AsY.%.".;5z.1I...~....%.. ....'...p.HN..UB).MQ...t6%;..9t2..Y.>....jlD|.Fpe.FKPB[...*..P..21.b..E.;.].
+TYM1|\..8.U.9....."..C\+...Q...3.....d.,3Lhe.~..p....:.Q.....w.$..tf.."0.g.W.t...O.......~..$A./P..R....	pH~"j.........[........<..@O`.....*y..ZT.	.4s.{....hiQp..[..G......&x.vD^..`..u..A....p..`n..2B..G...}4pxw.!]......&.Y.'..=......IR.?....$%:.......>.?..Vn*.rSy`.)?$.T.2E.	.3.......HJ...B.?.p.9..R....1.........._#...........N..5...\[(....%H..:..4.........d...7w._...8 0.s.9.n.wu.+.RR......NL#.B..i.zRl....p...xuM..^...\7.B%W...g.#.A.....K8(....-X..$.>.w..P.s...!.....t...LU......yC7@.....!z.......I...... .........Fqa.ml..	D.....?.!..L`..S+..3Y.V.....4.4s\&..... ....b.M.....g....X.k.".E...4.f.=...8.b]..DA.^x..q.7N.e(
+...Q...c;.xA.jyb..#.....
+5.r,..s.>.R"..[I.].Z9........@U._y..H....l......k|..9.{Sy...Qk.......B..U..zg.\...r~S.X..."P.....9v50.[.b..l=..|..S........:m.1.....s..{pw..WJu.e...-t.......1.@z.{...k..KiX.....m%' .7)9k....c...,.......qq.Z.Q\.W..(....Q.5Z..k.S(PA...6.*..~....!$..,......Zj...W....6......ZG^rb......u...%f\o...5..S..
+|f=.~%..!........a...."_......A......99..dl.2Y.z"H%....]...a..^b..Z....k..'.....5..f....~..`...	}..e..$.*....@..0.h.B<...1pA.l>3..=V..f..k@.x..C.c.G}..o.....rxl..Kn....}.8_..D.U....bM,..p=...@.(~+.^lN.1{.y6.......$.....o\63..$'aub..h...`.I)...\d.|.#E.:_I.E$.F.D.9..	.........%.....Ys	........+.......Q.B.:o..cdp.SL..E:.%B...|...........#
+c..,..r8......tE...e`.00k	9..oG...8mqr.S..yj...2D.[..*3.&.....y.!...3........l...g...q......Y..[...%:0..F...m....v. 0.O./..6....^xq.$g.
+Y..`.Y,..m..i#i	J6W..Cy*,yUX.8w....O......9.;x.WJ...r.5.y..."4.d.$6..V......`.\.g.. .............s..{.._#....Z.3_<..3......#.Y'8...]...!@p..jn....).9.}
+..mm.9..g....m..b......`kb9..`.M...Tx,*t...
+...WB..tr.F>E.....
+...I(.c."..{x2.....r.M.A;...>.........Bx.......H..v}'......
+..h..j.x./..-.WD...b=h.Z.~......Y.?....@..I.EJQO9.E.Tzf.7..NL.G.3..0
+\gn8.v..X.n.u.d.....t....(..<.lb..e.........{..s!.O%>.........t...Z.,(v..;V..6......AC......G.~Q&.I&..S..|$).WR..Q.f...w..x..3'
+..g.E.l;`.6q'.m..._..R;..Mgh..vZ..0`.K.O|..[X./.w9.....
+a[..K............[
+8_
+...W3.OB.y@|....v...%..D-."..r..<......+.H...ld....................2..c.DJ.....N^.
+-.pj9q>..g..DRt.3.rj.h..
+Q.8..... .......0..Z.=.!~.Lt.$Zf.@..Q....F#.*9.j"....W^gp..ZCK.0...:^.......f.5..e.F....D..'}.(.wn]....(	.....Z............{...y....x../....+'=5.o.G.Gk.+1......G... ... g..r3	...V.gJ......W.I...p)..5.Zf#.z-]'
+..x..Tr....2I-......8.g..Y..Bq
+).;e...`..:...s......J.)..)...Z.iH.P..q.`Z....._.b.0C......".b.9[K..B.D......T...@..U...=.u..c...>....(......zO.Z.p....\...Y...#..4..Y..q4..KM.jH%}.2Z....z....b$K.%..w..I.?..	.H......(.H..8y...e....h'.....2...c....E..	.|S.
+>..<<..n.xh~..`."...w..]...%n......P..m.I.....DA..K....Ta.!U*..b0O..W.c{..3.|&H..f...sI.Q*sG.#P..m.....wG.......7nH... ......G.fC.7%..........0.?.....R.aO..S....>)..V.....J.|.&.J...;..2.....7.......O.....q0|u|.......>.B.^.T7............}.~5.ylj*.........U^\.5.[M[....Y.K.t.vSS..2.e.G...z[v#...p...8....+p..>...!..]....kV8$^..s....s..K...
+..,T~{yk x.=.,..R.W...
+0......	"\Q.G..9=....f..qmw...M.A`-.D.....k...>.}......U......./+...ro..W....c.OB.F@sw....,..4.]....)7.f@......V.=.9..s.......i..?....P.d{ ......n|.J...n}...{.7....!EDx.....5...)..k...G..../...&;..-.=4.g..@.,...4.9V..Zw,..._.N-....X.Ls?...qRItv<...%]
+_3HW.>.WxG..(.P
+.(Gs...q....P.............e.6...F.<...\...r.7....y..........9.........Y.Y.....9	.o..B..&o9....D.x|.Q.n$...GS.T=...0~Y......./.`.5...d......j..cI..o.	..FE.1I.....:..U..	.	5.~x...gVN.?...
+$8.....)k..F.g~.....q.x.\.;.f.Y.....1...s..y.G.9..!.ST'....{*q...~.........v..K....^.......L6..P.*P.^.T.....^.(....$+K.M..-}..i.......<+XalrT.W..r8I.# .GS#........`/.!H.........!^.oL.....4)..&.>n.ZS3.T..fRj72).'..dR.;...9Q....:...JO.....[.J9.......ya=UI....z.Z.....\T.]O.....x..->.Ifi*.....#G.R.....jN\P\...E.`=.f...Ox!Y......Nj...._..v..~^2.mH.@
+.)].D:......ZK.=!i.x..I...U.m......6..~~J....D...O.j...C..:..\{h....mz..y.AP.&.^[.".N..m~Ax(.%y...,.gj9\.....4.-k.r....:.ie..;1..[...[V~r...[v....IG.......V..x.....UX.}...^8..u~H.].K........Z.'G...Y2..V..f.Z......}.s|#.Yy...+..4{.Y..,F.u...q..d1.,F.b.i...CI..D..^.....m[&....6.;..W...rz'......K._A....|h..../......a.Dz(...r..h.....f..s.o7.rA.t=b...1F*.5T..cOrJ..ci%....yS..r...pH....1Y.	...'_t.......7r.5........:4E+..........z....V..4#.6..q....8.e-(hE...g.W.,t.e.s.Sj6..J..\......+...)K0......".*.....^^.z.''..R.05.9.....Q.....W)d{u.'....5.>..v?vUj..~mn6b..$^..-ys.^.H.`..C....GN.$..n..h...y.Y...^>%.}L...,...........t..y.._".g.Z..
+ $...s..^`k..C..;U...H..i..s....+..x...m"..Qhf.r..+,L.+......xEo...(~......R......._..i.>xt...\......B..	W.g%...*...C.8".......W~.D...K...?2..2.Y.:+.1)hs.X...
+......{x....[..........`}..WQ.2.(:..J...U{.F..h4Kj....{jM.tG.V......U.....n..P..a.<RG.J....5.j.6..o6<d.xGc.ch.AH.....w.A.......... ..,D{<...](.....z....#]A4!..U..2BN..+...f.Um......P[.z.?...f..x....i.".....a...4......u..R.6.u..f.[.~I@..=.h.Un4Z...TW...`.hU..^....{.z...fU.^d&.w/..".Q..........{.O..s0..wT.wFt....k.ze.W..J....Z.a.4..J.j.1P.7.....f..G[..."@%#P....".[..K..\.p....:....H..TRGe...X.V......d5.....h..7..%j..4.4...o	.H...p..R.	/.."..-}.6~.2.}.....87...M............m.H.6.......
+.....ww7........;="..6w>...<.-..C>.\S..?.........J..v.*....'y.........7..T..x	H.`f.,...`.x.l.5.;......2..~..~..^.}.....A......6i......	.....I.'@.s..
+-.......z.7...R...g....L..j...................W.......b%.tk1..
+..V3.@.G..$...;p..oK.|.......B....Cn..._..|..YU..1..{,...5<q...S..6E.........ks.....i.;v........)xQ%b.......&n......\..Op........a...
+..r.Z.C
+}.$.....D.........u.[RW..2...."..*I..~.i&>...i]..#._D...p..........&T..>V...W....H..k9..B..}..\..t._..t...w.b%..e.a...}..j..2...lm.~S*.v..............\..p........|....k.""..|m......O._......m-U....Da.\Z...u$n!sI..l.....84.y...B2.M...F......"..[.7..E.]...w...2:D8................x.h..TN.....y.........6Ik8Oa..B....L.M.hz..K.w.......[?m.."..~{....*...&........{."m......-.oeq...8.'.s7...3>z.=HKK.IZn..[IK....z......s.......hO.r...JZ.........x..J...;:.,..O.r...J^.[...E....p.}k.G..mn....!.h.....sK....p"m.
+_....l:....k....v.Z@E.#..ig,HF8x*.',..v
+%....O..%....va.lM...OM.A....j....k.\.......>...q.C..x.v....j...Q.A......n%.E..[.:......?....U^c..u...7....D...2..,...;....[$...7QO..O[..]..@...1(.......@....+	V...~.k0=($u..0 .._...$....]@(.6	...8.....XC..`.Q.......%..`.W..@.....^.EA.+.Ll4q~N
+4`nL~.<q....K....j.p.C.:.....u.`o....F.V.#..I...O3J.<.+.[.l"\;..L..M..9..L.o.N.y...-....>.=.l!....WqY.@....n....|...W..N(..o.P..q..7Z...p/..S...H.........PL......5.......F../.i...J._[.._.>..........*..<.UT. 0..D...X..........O.....NL.U..b{..0...g..g~.3.}.Y<...!......g....>|.Wj.....k.J..%.........J]D.\..3@...G.1..........f<..._....$k..d..'Y..dY.5.@......D.,.Zw Y..I...H.{.^..SJ.8...(q#.8z{Sr. [u.:..7]PJ<F..IG#..R.".kF.	...3.C..`..&.).7d...../...Nv.~..l....................#.Q......@.&.....i..'..<..(...D.....n.`30..h..HRR._).gy.CFrn....x.....TB..k..|...*.jD.M.7.....4!t...|.T>.9.._.Y.K...Kn.....1..).z..<n+......m.{.6...Izb.;0.=..#.=.\.>.....	.......0
+..]x.3.,.....}.......a..6......`*1...y........o.2L........C...Y.k..g..&[.c.....y....!o.H8.+..
+d.6.;.)].K\8.WqHt....?.}...........x....W?S..G_xt	n..g..-..._
+.z.O..)j.)j....H
+>Z...1..m....#.c...,F:.......jx......9O.._.......g.N.~gG+z....Z..z.....4...5..rSz.'z~1z.B..h..
+.t.Yt.L.......J.
+..,..f.5...d......t...C.|.N{l&.].[..|....d..2..~.	3.I..xMY.........\gY........].cK.?b....>.+.=...p_.T;~.IN.z...$V.&....../....5.....].q6..i..Q..mr...
+..t......g...t.2...{.......'..9
+....^.r.=(.....)L.@{R.......*K*r..2....Lv.}).W$D..e../.$........\%x.WI?...
+..R...$.......J.[.u.9"..
+...]zT.e....I.i........*.....	...........E.>S...n......*...\[....!.b..)..8.9...\.O.X...I].N.s9::K..K..B.}.oPr.....Z......O..	..L.-...
+..S.-...B1Re..2cUL.`....|..j7....B`.@.W....m.3.Q...&Ug..	+...lpC..P..{..&..h...d..l......G...X ..X3.+.rp:?m%.I..w...i[.....?'..Y~/..Ifl..E...a.5...&4.5.G_..x.v.	ym..(.TN...s.i.w.@.>..I..wP7d^...'| \m.*...C..,....xk{..O.8+!%......A..+.T}.y.w.mv.C3....A...x....y..j.T..}t...-......8.....qj.zy7.j$qBDw..u...[:[mp....L.z..0.
+o7..I.,...d.".d.p..e.?|...`x(.$.....RIQ.#jfi....K..m].n.....<..N.....op.....x.9.?....1.)^.p0.....O...z;<:.	......3..	ga..p.0.../.6.9./...X..O..;/^.
+....$P.L......j................^....w.~"....E;...>m.h..............~_......{....t.....u.s..~piH.....d...q......$.s.....c.l.._t_.r=........wI..w....P...Z....<..,..1.., .*t..s4}~.1e._.g...m1..j...@..S.T...Lo....N.:..z.\..^...uM..._.A..wi+h).]).?~../ ,.......:.....l-.........,.CL:.0.."[?..OE".).sK9.=....:|5....<....k....s..7..Y.W.b..?..*%3.....
+.......;8...k..6..)HuL7..*......*.x.'z.j.\.`e.]..m...E..!@g.+....._~..TC..
+....;.HG.....~@....r.Wx.....?!}W.Yo.<M..v$.....\.d...[...f{.L..%.@.+P.Vv.m..\P...Sk@..*v|.f,....4o.&.....ul.^...i1..t.0......><.N" ..9..&JD...L.h.G..%..2)...P:1....e.1.Z......46g5..._.2m)=....Ny....z...+.-.@...
+.@K.+ 	Y..3...DJn..!dg...I^R".........w...'.... ............b.G.?.x...|{.....W...[...
+.%...I_..5[;...\.
+.|:....../.=.2wY.f.9..0a........x#.	.......I...W. .^.v..x.........2...h..t..q...'$...vEC4..3.....Eb..1..?}.....<r.`0.f.E....{.X.**........|..#.1in..CZ.3}..Y..y(..H.4.....`.....@..............a...
+.g.....
+......\..noG].;.Z....Iq..+.....V
+..D....9q...N...25
+.....`......b..]m.,.6....s.M|....[.l.......c.%[^{W'.......s...vo.........Q..hQ...
+0
+
+GET /mail/client/folder;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b?6-1.IBehaviorListener.2-&folderId=tfol171f25cc8a0e250a&_=1666437135600 HTTP/1.1
+Host: 3c-lxa.mail.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0
+Accept: application/xml, text/xml, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://3c-lxa.mail.com/mail/client/folder;jsessionid=FAB0B34BBBD7345F03F004E52946467E-n2.lxa01b
+Wicket-Ajax: true
+Wicket-Ajax-BaseURL: folder
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Cookie: euconsent-v2=CPhMsoAPhMsoAAcABBENCmCkAP_AAAAAAAYgJFNf_X__b3_r-_5___t0eY1f9_7__-0zjhfdl-8N3f_X_L8X_2M7vF36tq4KuR4ku3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbeydYGH9_n1_z-ZKY7___f_77__-____3_____-_f___5______f_V__9zfn9_____9_P___9v-_9__________3___97AAAAkEgtAAIAAXABQAFQAMgAcgA8AEAAMAAZQA0ADUAHkAQwBFACYAE-AKoArABYADeAHMAPQAfgBCQCGAIkAR0AlgCXAE0AKUAW4AwwBkADLAGyAO-AewB8QD7AP2AgACBgEUgIuAjEBGgEcAJSAUEAp4BVwC5gGKANEAawA2kBuAG8AOIAfIBDoCIQEiAJlATsAocBSICmgFigLQAWwAuQBd4C8wGDAMJAYaAyIBkgDJwGXAM5AZ8A0iBrAGsgNvAbqA4IBxEDkQOVAcuA8cB7QEIQIXgQ9Ah-BEMCKQEfQI_hAH0ADgAPABIAH8ASIAnABtQDmAOcAdQBBwCfgFDAKWAdUBD4CLwEegJCASKAlYBNoCnwFQgLCAXQAuoBdoC8gGBAMQAYsAyEBkYDJgGjANKAamA2gBtQDbgG6AOkAdgA7MB4EDyQPKAe6A-QB9gD9wICAQMAgiBBMCDEEKgQrAhcBDwCHwEUwIwAR0AkEGAGgBPAHMAdQBF4CQgEigMjAbUA3QBxIDswHugQ-DQIgArABcAEMAMgAZYA2QB2AD8AIAAQUAjABTwCrwFoAWkA1gBvADqgHyAQ6AioBIgCdgFIgLkAYSAxgBk4DOQGeAM-AckA5QB-AEfxAA8AEgATwBzAG8AReAkIBIoDagG6AOJAdmA90B9gEPgI6CIDYAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAnYBSIC5AGEgMnAZyAz4ByQDlAH4AR_FQGQAKABDACYAFwARwAywB2AEcAKvAWgBaQDeAJBAWwAuQBeYDIgGcgM8AZ8A3IByQDlAH4AQvAj-KAHADaAHMAPAAgoB1QEegJFAa8A2oBt4DiQH2AQPAg2MgLABDACYAI4AZYA7ACOAFXAK2AbwBJwC0QFsALzAZEAzkBngDPgHJAOUAfgBC8CP4wAaANoAcwA8ACxAHVAR6AkUBeQDagG3gOJAfYBBscBgAARAA4ADwALgAkAByAD8ANAAfwBIgCcAFmAMsAbUA5gDqAHYAO4AgABBYCDgIQAREAmwBPwClgFQgMAAwIBmQDWAGvAN4AccA6QB1QDyAIQAQ-Aj0BIQCRQErAJiATKAm0BQoCkAFJgKYAVDAqUCpgFVAK2AV2AsoBakC6ALqAYEAxABiwDIQGTAMvgaKBowDSgGmgNTAa8A2gBtQDbAG3AOJgceByADnQHSAOwAdmA8CB5IHlAPdAfFA-wD7YH7AfuBA8CCIEGAINwQqBCsCHgEPgInARTAi8BGkCN4EdAJAQSCBIQdBzAAXABQAFQAMgAcgA-AEAALoAYABlADQANQAeAA-gCGAIoATAAnwBVAFYALEAXABdADEAGYAN4AcwA9AB-gEMARMAlgCYAE0AKMAUoAsQBbwDCAMOAZABlADRAGyAN8Ad4A9oB9gH6AP8AgYBFICLAIwARwAlIBQQCngFXALFAWgBaYC5gLrAXkBegDFAG0ANwAcSA6YDqAIdARCAioBF4CQQEiAJUATIAnYBQ4CmgFWALFAWwAuABcgC7QF3gLzAX0AwYBhIDDQGMAMeAZIAycBlQDLAGXAMzAZyAz4BokDSANJAaWA1UBrADYwG3gN1AcQA4uByQHKgOXAeOA9UB7QD6wH4AQBAgkBBoCF4EOgIegRSAjsBH0CP5AByAAgANAAfwBIgDLAG1AOYA5wB2ADwAIKAUsAsQBgADMgG8AOqAdsBD4CPQEhAJFATEAm0BQoCkAFJgKlAXQAvIBgQDRQGlANTAbUA2wBtwDiQHYQPJA8oB6ID3QHxAPsAfsBA8CDAEGwIVgROAimBFkCLwEaQI3gR0AkABIIhBDAAWABQADIALgAYgA1ACGAEwAKYAVQAuABiADMAG8APQAjgBYgDCAG-AO8AfYA_wCKAEcAJSAUEAp4BV4C0ALSAXMAxQBtADqAIhASCAkQBJwCVAFNALFAWiAtgBcAC5AF2gMiAZOAzkBngDPgGiANJAaWA1UBwADiAHJAOUAeOA_ACCQEKAIXgQ6Ah6BH0CP5KB2AAgABYAFAAMgAcAA_ADAAMQAeABEACYAFUALgAYgAzQCGAIkARwAowBSgC3AGEANkAd4A_ACOAFPAKvAWgBaQC6gGKANwAdQA-QCHQEVAIvASIAsUBbAC7QF5gMiAZOAywBnIDPAGfANIAawA28BwAD2gH4AQPAgkBC8CGoEPQIsgR_JAJwAHAAXAByAJEAXIAywBtADmAHcAQAAhIBSwCoAGZANeAbwA6oB9gEegJFASsAm0BSYCygGBAMWAaUA3IBxIDpAHYAPKAfYA_cCCIEGAIfASAAkEUgqgALgAoACoAGQAOQAfACCAGAAZQA0ADUAHkAQwBFACYAE8AKQAVQAsABiADMAHMAP0AhgCJAFGAKUAWIAtwBhADKAGiANkAd8A-wD9AIsARgAjgBKQCggFXAK2AXMAvIBigDaAG4AQ6Ai8BIgCTgE7AKHAWKAtABbAC4AFyALtAXmAvoBhoDGAGRAMkAZOAywBlwDOQGeAM-gaQBpMDWANZAbGA28BuoDgoHJgcoA5cB44D2gH4AQhAheBDMCHQEPQIgARSAjsBH8oBKAAuACQAHIAPwArABtAEcAJEATgAuQBlgDagHMAc4A6gB3ADwAIAAQkAioBIgCTgE2AJ-AUsAsQBdQDAAGvAN4AdUA7YB5AD_gIhAR6AkUBMQCZQE2gKQAUwAp-BUoFTAK7AXkAwIBiwDJgGiANKgakBqYDXoHEAcSA7AB5QD3QHxAPsgfsB-4EDAIHgQTAgwBBuCFQIVgQ-AicBFMCLIEawI5AR0Aj2BIIA.f_gAAAAABFeAAAAA; uiconsent={%22permissionFeature%22:[%22fullConsent%22]}; idcc=1; consentLevel=3; cookieKID=kid%40autoref%40www.mail.com; cookiePartner=kid%40autoref%40www.mail.com; _gaexp=GAX1.2.AVZvGs8aR0mfccbb7bW67g.19377.x927; shownPromos=3525940#1666358537650|1|false&3226736#1666372705589|1|false; wa=5b11998362295c70ee60db65efe14ecb; _ga_V2FMR8VFB6=GS1.1.1666434970.5.1.1666437048.0.0.0; _ga=GA1.2.1842012434.1666358554; __gads=ID=daf3c4a3cd37a330-22074d8744d60093:T=1666358554:S=ALNI_MYn3zkXkVX0_Ajby93ZCDLcbo_uGw; __gpi=UID=00000b13db3a9bd6:T=1666358554:RT=1666432341:S=ALNI_MYQet6ZsRdJaN4G1P-JqC6UPodzyw; cto_bundle=jxAj6F9maGRYUDg5RkdIeWRSZ3E3T0UwbjNMUWdVNXhTYnNHYzhKWEclMkJiVXNUTWZ4OURUZU9qcFBpSGtUSjl6YWpmdjNkRjglMkIxUjlHbUxuR1dBd0R2MFZyQkdYbWJXWkFKVEhFM29KR0NvbFZxTVFsbUZnTUlLM050JTJGM3Uxek16OVklMkJr; _autuserid2=7156955583134631189; _gid=GA1.2.1487877590.1666358580; tp_id=pmwrDUrnmVYZ78ZENt-2Jj9U1cL95exMQc1sAz2Do9KIdLF6V2rOetIprGC0NDC1_THJUg; cto_bidid=mo5wYV9DT1NrbGs0YjV6R0glMkJJNEQ3YVpVT1FhZW9PSFIzNWVaZ1gzTTdsMCUyQnR6TllTZndDWU1RMERzR21jZGglMkZ2T25IeEpEZ1VCbWlYa1cydGJMJTJCU1YlMkZwR2lJUlQ5VEJ1NDBoQXIlMkJHendQaUolMkZJJTNE; cto_dna_bundle=94XkBF80M0RITmhlJTJCZkMwOUJGQlhaMUN2c3p1NEVhZDBoaGtHJTJGQ3M0d0YwWndDQVZIQUZ5Mm52RURGTnhkTTdCNlN4RQ; 2Q7NMZu76Rad3db68e-ff65-4391=~183ff637de8#ad3db68e-ff65-4391-a0af-6078bc4a89e7; iac_token=0f9e4472beda041d12dd0d4c8fffecca
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+HTTP/1.1 200 200
+Date: Sat, 22 Oct 2022 11:12:15 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Max-Age: 1728000
+X-Content-Type-Options: nosniff
+X-UI-INTERNAL-GURID-SUFFIX: Y1PQD8rZIbRDbBr18ZoYZAAACG4
+X-Robots-Tag: noindex, nofollow
+Content-Security-Policy: frame-ancestors *
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache, no-store, public
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Keep-Alive: timeout=3, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/xml;charset=UTF-8
+
+12f
+.............n.0.._..
+.E..(b....]./...,]K......fK.5.......;..?Y.....i+)V...1P0.W.\...m:'.4....
+...-.	..;P.z.m_7.fg..`J.0.S}.l.Q(....j.&..W%..vW.....db.H!y.....(m...n..........h.....".g..dR...qr..Q.{.
+H.@.]......'Z...:.C`.=.......A.......A7p.....lkd.....e.q..P....9_}.z...0Z..2..~.&.?u..u.
+....../.......
+0
+
